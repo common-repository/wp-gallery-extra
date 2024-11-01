@@ -1,0 +1,1435 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Gallery Extra\n"
+"POT-Creation-Date: 2017-06-04 18:16+0430\n"
+"PO-Revision-Date: 2017-06-04 18:19+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wordpress-gallery-extra.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/cron.class.php:160 includes/cron.class.php:177
+#: wordpress-gallery-extra.php:5720
+msgid "Bad Request"
+msgstr "درخواست بد"
+
+#: includes/plugin-update-checker/Puc/v4p1/Plugin/UpdateChecker.php:358
+msgid "Check for updates"
+msgstr "بررسی برای بروزرسانی"
+
+#: includes/plugin-update-checker/Puc/v4p1/Plugin/UpdateChecker.php:405
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr "شما از آخرین نسخه %s استفاده میکنید . به‌روز باشید"
+
+#: includes/plugin-update-checker/Puc/v4p1/Plugin/UpdateChecker.php:407
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr "نسخه جدیدی برای افزونه %s ارائه شده است."
+
+#: includes/plugin-update-checker/Puc/v4p1/Plugin/UpdateChecker.php:409
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "وضعیت ناشناخته برای بروزرسانی \"%s\""
+
+#: includes/plugin-update-checker/Puc/v4p1/Vcs/PluginUpdateChecker.php:83
+msgid "There is no changelog available."
+msgstr "شرحی برای تغییرات  یافت نشد"
+
+#: templates/admin/footer.php:3
+#, php-format
+msgid ""
+"Found an error? Help making <strong>WordPress Gallery Extra</strong> better "
+"by <a target=\"_blank\" href=\"%s\" title=\"%s\">quickly reporting the bug</"
+"a>."
+msgstr ""
+"خطایی یافته‌اید؟ با <a target=\"_blank\" href=\"%s\" title=\"%s\">گزارش سریع "
+"اشکال</a> به بهبود <strong>WordPress Gallery Extra</strong> کمک کنید."
+
+#: templates/admin/footer.php:3
+msgid "Click here to report a bug"
+msgstr "اینجا را برای گزارش اشکال کلیک کنید"
+
+#: templates/admin/footer.php:5 wordpress-gallery-extra.php:2160
+msgid "Thumbnails Regenerator"
+msgstr "دوباره سازی ریز عکس‌ها"
+
+#: templates/admin/footer.php:9
+msgid "Total Images:"
+msgstr "تمام تصاویر:"
+
+#: templates/admin/footer.php:10
+msgid "Successes:"
+msgstr "موفق‌ها:"
+
+#: templates/admin/footer.php:11
+msgid "Failures:"
+msgstr "ناموفق‌ها:"
+
+#: templates/admin/footer.php:31
+msgid "Alert!"
+msgstr "هشدار!"
+
+#: templates/admin/header.php:2 wordpress-gallery-extra.php:761
+msgid "WP Gallery Extra"
+msgstr "WP Gallery Extra"
+
+#: templates/admin/header.php:6
+msgid "Notice:"
+msgstr "توجه:"
+
+#: templates/admin/header.php:6
+msgid ""
+"The plugin's settings have been changed. In order to save them please don't "
+"forget to click the 'Save Changes' button."
+msgstr ""
+"تنظیمات افزونه تغییر کرده است. به منظور ذخیره تغییرات لطفا کلیک بر روی دکمه "
+"'ذخیره تغییرات' را فراموش نکنید."
+
+#: templates/admin/header.php:11
+msgid "Visit author website"
+msgstr "بازدید از سایت نویسنده"
+
+#: templates/admin/header.php:12
+msgid "Like author Facebook page"
+msgstr "صفحه فیس‌بوک نویسنده را لایک کنید"
+
+#: templates/admin/header.php:13
+msgid "Follow author on Twitter"
+msgstr "نویسنده را روی توییتر دنبال کنید"
+
+#: wordpress-gallery-extra.php:516
+msgid "Rebuild the thumbnails for this single image"
+msgstr "ریز عکس‌ها را برای این تک تصویر دوباره سازی کنید"
+
+#: wordpress-gallery-extra.php:516
+msgid "Rebuild Thumbnails"
+msgstr "دوباره سازی ریز عکس‌ها"
+
+#: wordpress-gallery-extra.php:531
+msgid "Open on the same page (_self)"
+msgstr "در همان صفحه باز کم (self_)"
+
+#: wordpress-gallery-extra.php:532
+msgid "Open on new page (_blank)"
+msgstr "در صفحه‌ای جدید باز کن (blank_)"
+
+#: wordpress-gallery-extra.php:533
+msgid "Open in parent frame (_parent)"
+msgstr "در قالب منبع باز کن (parent_)"
+
+#: wordpress-gallery-extra.php:534
+msgid "Open in main frame (_top)"
+msgstr "در قالب اصلی باز کن (top_)"
+
+#: wordpress-gallery-extra.php:537 wordpress-gallery-extra.php:1313
+#: wordpress-gallery-extra.php:1421
+msgid "Auto"
+msgstr "خودکار"
+
+#: wordpress-gallery-extra.php:554
+msgid "Placeholder Color"
+msgstr "رنگ جا نگاهدار"
+
+#: wordpress-gallery-extra.php:556
+msgid "Image placeholder color for lazy load."
+msgstr "رنگ جا نگهدار تصویر برای بارگذاری تنبل."
+
+#: wordpress-gallery-extra.php:561
+msgid "Custom URL"
+msgstr "URL سفارشی"
+
+#: wordpress-gallery-extra.php:563
+msgid "Point your attachment to a custom URL."
+msgstr "ضمیمه‌تان را به URL سفارشی متصل کنید."
+
+#: wordpress-gallery-extra.php:568
+msgid "Custom Target"
+msgstr "مقصد سفارشی"
+
+#: wordpress-gallery-extra.php:570
+msgid "Set a custom target for your attachment."
+msgstr "تعیین مقصد سفارشی برای ضمیمه‌تان."
+
+#: wordpress-gallery-extra.php:576
+msgid "Columns Size"
+msgstr "اندازه ستون"
+
+#: wordpress-gallery-extra.php:578
+msgid "Set columns size for your attachment in mosaic gallery type."
+msgstr "تعیین اندازه ستون برای ضمیمه‌تان در گالری نوع موزاییک."
+
+#: wordpress-gallery-extra.php:584
+msgid "Rows Size"
+msgstr "اندازه ردیف"
+
+#: wordpress-gallery-extra.php:586
+msgid "Set rows size for your attachment in mosaic gallery type."
+msgstr "تعیین اندازه ردیف برای ضمیمه‌تان در گالری نوع موزاییک."
+
+#: wordpress-gallery-extra.php:765 wordpress-gallery-extra.php:1027
+#: wordpress-gallery-extra.php:2411
+msgid "Templates"
+msgstr "قالب‌ها"
+
+#: wordpress-gallery-extra.php:769 wordpress-gallery-extra.php:791
+#: wordpress-gallery-extra.php:806 wordpress-gallery-extra.php:1191
+#: wordpress-gallery-extra.php:1900
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: wordpress-gallery-extra.php:773 wordpress-gallery-extra.php:1988
+msgid "Images Sizes"
+msgstr "اندازه تصاویر"
+
+#: wordpress-gallery-extra.php:777
+msgid "Help"
+msgstr "کمک"
+
+#: wordpress-gallery-extra.php:867
+msgid "OK"
+msgstr "تصویب"
+
+#: wordpress-gallery-extra.php:868
+msgid "Cancel"
+msgstr "لغو"
+
+#: wordpress-gallery-extra.php:869 wordpress-gallery-extra.php:2140
+msgid "Register a new image size"
+msgstr "ثبت اندازه تصویر جدید"
+
+#: wordpress-gallery-extra.php:870
+msgid ""
+"Please enter a valid ID for your new image size. Only english letters and "
+"dashes allowed. e.g. <code>my-image-size</code>"
+msgstr ""
+"لطفاً شناسه معتبر اندازه تصویر را وارد کنید. فقط حروف انگلیسی و خط فاصله مجاز "
+"است. به عنوان مثال. <code>my-image-size</code>"
+
+#: wordpress-gallery-extra.php:871 wordpress-gallery-extra.php:5445
+#: wordpress-gallery-extra.php:5463 wordpress-gallery-extra.php:5477
+#: wordpress-gallery-extra.php:5525
+msgid "Request failed, please try again."
+msgstr "درخواست ناموفق بود, لطفاً دوباره سعی کنید."
+
+#: wordpress-gallery-extra.php:872
+msgid "Backup Thumbnails"
+msgstr "پشتیبان گیری از ریز عکس‌ها"
+
+#: wordpress-gallery-extra.php:873
+msgid "Are you sure you want to backup your current thumbnails?"
+msgstr "آیا مطمئنید می‌خواهید از ریز عکس‌های فعلی شما نسخه پشتیبان تهیه شود؟"
+
+#: wordpress-gallery-extra.php:874 wordpress-gallery-extra.php:2183
+msgid "Restore Backup"
+msgstr "بازگرداندن نسخه پشتیبان"
+
+#: wordpress-gallery-extra.php:875
+msgid "Are you sure you want to restore your last backup?"
+msgstr "آیا می‌خواهید آخرین نسخه پشتیبان‌تان را بازیابی کنید؟"
+
+#: wordpress-gallery-extra.php:876 wordpress-gallery-extra.php:2184
+msgid "Delete Backup"
+msgstr "حذف نسخه پشتیبان"
+
+#: wordpress-gallery-extra.php:877
+msgid "Are you sure you want to delete your thumbnails backup?"
+msgstr "آیا مطمئنید می‌خواهید نسخه پشتیبان ریز عکس‌هایتان را حذف کنید؟"
+
+#: wordpress-gallery-extra.php:878 wordpress-gallery-extra.php:2180
+msgid "Never"
+msgstr "هرگز"
+
+#: wordpress-gallery-extra.php:879 wordpress-gallery-extra.php:2222
+msgid "Delete Thumbnails"
+msgstr "حذف ریز عکس‌ها"
+
+#: wordpress-gallery-extra.php:880
+msgid "Are you sure you want to delete thumbnails?"
+msgstr "آیا مطمئنید می‌خواهید ریز عکس‌هایتان را حذف کنید؟"
+
+#: wordpress-gallery-extra.php:881
+msgid "Finished."
+msgstr "به پایان رسید."
+
+#: wordpress-gallery-extra.php:882
+msgid "Create a new template"
+msgstr "یک قالب جدید بسازید"
+
+#: wordpress-gallery-extra.php:883
+msgid "Please enter your new template name."
+msgstr "لطفاً نام قالب جدید خود را وارد کنید."
+
+#: wordpress-gallery-extra.php:884
+msgid "Duplicate Template"
+msgstr "تکثیر قالب"
+
+#: wordpress-gallery-extra.php:885
+msgid "Are you sure you want to duplicate this gallery template?"
+msgstr "آیا مطمئنید می‌خواهید این قالب گالری را تکثیر کنید؟"
+
+#: wordpress-gallery-extra.php:886
+msgid "Delete Template"
+msgstr "حذف قالب"
+
+#: wordpress-gallery-extra.php:887
+msgid "Are you sure you want to delete this gallery template?"
+msgstr "آیا مطمئنید می‌خواهید این قالب گالری را حذف کنید؟"
+
+#: wordpress-gallery-extra.php:888 wordpress-gallery-extra.php:5662
+msgid "Your license support period has been expired, please renew it."
+msgstr "دوره پشتیبانی مجوز شما منقضی شده است، لطفاً آن را تمدید کنید."
+
+#: wordpress-gallery-extra.php:889
+msgid ""
+"You didn't purchased this item yet. By purchasing WordPress Gallery Extra "
+"license you will unlock premium options - direct plugin updates, access to "
+"template library and official support."
+msgstr ""
+"شما این محصول را خریداری نکرده‌اید. با خرید مجوز WordPress Gallery Extra "
+"می‌توانید گزینه‌های پولی را باز کنید: بروزرسانی‌های مستقیم افزونه، دسترسی به "
+"کتابخانه قالب و پشتیبانی رسمی."
+
+#: wordpress-gallery-extra.php:890 wordpress-gallery-extra.php:1870
+msgid "Convert to LESS"
+msgstr "تبدیل به LESS"
+
+#: wordpress-gallery-extra.php:891
+msgid "Are you sure you want to convert your CSS to LESS?"
+msgstr "آیا مطمئنید می‌خواهید CSS تان را به LESS کنید؟"
+
+#: wordpress-gallery-extra.php:892 wordpress-gallery-extra.php:1033
+msgid "Import Template"
+msgstr "وارد کردن قالب"
+
+#: wordpress-gallery-extra.php:913
+msgid "Template"
+msgstr "قالب"
+
+#: wordpress-gallery-extra.php:915
+msgid "Default"
+msgstr "پیش فرض"
+
+#: wordpress-gallery-extra.php:959
+msgid "WordPress Gallery Extra: "
+msgstr "WordPress Gallery Extra: "
+
+#: wordpress-gallery-extra.php:960
+msgid "WordPress Gallery Extra Lightbox: "
+msgstr "WordPress Gallery Extra Lightbox: "
+
+#: wordpress-gallery-extra.php:1031
+msgid ""
+"Extend your WordPress native gallery with creating nice gallery templates."
+msgstr "گالری پیش فرض وردپرس خود را با ایجاد قالب‌های زیبای گالری گسترش دهید."
+
+#: wordpress-gallery-extra.php:1034
+msgid "New Template"
+msgstr "قالب جدید"
+
+#: wordpress-gallery-extra.php:1039 wordpress-gallery-extra.php:1179
+msgid "No template exists, please create one."
+msgstr "قالبی وجود ندارد، لطفاً یکی بسازید."
+
+#: wordpress-gallery-extra.php:1057 wordpress-gallery-extra.php:1114
+msgid "ID"
+msgstr "شناسه"
+
+#: wordpress-gallery-extra.php:1058 wordpress-gallery-extra.php:1115
+msgid "Author"
+msgstr "نویسنده"
+
+#: wordpress-gallery-extra.php:1059 wordpress-gallery-extra.php:1116
+#: wordpress-gallery-extra.php:1485
+msgid "Type"
+msgstr "نوع"
+
+#: wordpress-gallery-extra.php:1060 wordpress-gallery-extra.php:1117
+msgid "Last Modify"
+msgstr "آخرین تغییر"
+
+#: wordpress-gallery-extra.php:1061 wordpress-gallery-extra.php:1118
+msgid "Actions"
+msgstr "اقدامات"
+
+#: wordpress-gallery-extra.php:1075 wordpress-gallery-extra.php:1156
+#: wordpress-gallery-extra.php:1300 wordpress-gallery-extra.php:4952
+#: wordpress-gallery-extra.php:5002
+msgid "Columns"
+msgstr "Columns"
+
+#: wordpress-gallery-extra.php:1077 wordpress-gallery-extra.php:1157
+#: wordpress-gallery-extra.php:1301 wordpress-gallery-extra.php:4901
+#: wordpress-gallery-extra.php:4954 wordpress-gallery-extra.php:5004
+msgid "Justified"
+msgstr "Justified"
+
+#: wordpress-gallery-extra.php:1079 wordpress-gallery-extra.php:1158
+#: wordpress-gallery-extra.php:1302 wordpress-gallery-extra.php:4956
+#: wordpress-gallery-extra.php:5006
+msgid "Masonry"
+msgstr "Masonry"
+
+#: wordpress-gallery-extra.php:1081 wordpress-gallery-extra.php:1159
+#: wordpress-gallery-extra.php:1303 wordpress-gallery-extra.php:4958
+#: wordpress-gallery-extra.php:5008
+msgid "Mosaic"
+msgstr "Mosaic"
+
+#: wordpress-gallery-extra.php:1083 wordpress-gallery-extra.php:1160
+#: wordpress-gallery-extra.php:1304 wordpress-gallery-extra.php:1772
+#: wordpress-gallery-extra.php:4960 wordpress-gallery-extra.php:5010
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: wordpress-gallery-extra.php:1088 wordpress-gallery-extra.php:2177
+#: wordpress-gallery-extra.php:2835
+#, php-format
+msgid "%s ago"
+msgstr "%s پیش"
+
+#: wordpress-gallery-extra.php:1091 wordpress-gallery-extra.php:1136
+msgid "Edit"
+msgstr "ویرایش"
+
+#: wordpress-gallery-extra.php:1092 wordpress-gallery-extra.php:1137
+msgid "Duplicate"
+msgstr "تکثیر"
+
+#: wordpress-gallery-extra.php:1093 wordpress-gallery-extra.php:1138
+#: wordpress-gallery-extra.php:2055 wordpress-gallery-extra.php:2300
+msgid "Delete"
+msgstr "حذف"
+
+#: wordpress-gallery-extra.php:1151
+msgid "Type to Search..."
+msgstr "برای جستجو بنویسید..."
+
+#: wordpress-gallery-extra.php:1155
+msgid "All"
+msgstr "همه"
+
+#: wordpress-gallery-extra.php:1171
+msgid "Preview"
+msgstr "پیش نمایش"
+
+#: wordpress-gallery-extra.php:1172
+msgid "Import"
+msgstr "وارد کن"
+
+#: wordpress-gallery-extra.php:1192
+msgid "Styling"
+msgstr "طراحی ظاهری"
+
+#: wordpress-gallery-extra.php:1284
+msgid "Personalize your gallery template with the following settings."
+msgstr "قالب گالری خود را با تنظیمات زیر سفارشی کنید."
+
+#: wordpress-gallery-extra.php:1291
+msgid "Template Name"
+msgstr "نام قالب"
+
+#: wordpress-gallery-extra.php:1297
+msgid "Gallery Type"
+msgstr "نوع گالری"
+
+#: wordpress-gallery-extra.php:1306
+msgid ""
+"The gallery type that will be used when the gallery is output to the frontend."
+msgstr "نوع گالری که هنگام خروجی گالری برای ظاهر استفاده می‌شود."
+
+#: wordpress-gallery-extra.php:1310
+msgid "Gallery Structure"
+msgstr "ساختار گالری"
+
+#: wordpress-gallery-extra.php:1315 wordpress-gallery-extra.php:1423
+msgid "Manual"
+msgstr "دستی"
+
+#: wordpress-gallery-extra.php:1318
+msgid ""
+"By using this feature you can control the entire gallery's skeleton structure."
+msgstr "با استفاده از این ویژگی می‌توانید کل ساختار اسکلت گالری را کنترل کنید."
+
+#: wordpress-gallery-extra.php:1319 wordpress-gallery-extra.php:2225
+msgid "Note:"
+msgstr "توجه داشته باشید:"
+
+#: wordpress-gallery-extra.php:1319
+msgid "Don't change it to manual until you know what to do!"
+msgstr "تا زمانی که شما می‌دانید چه باید بکنید آن را به دستی تغییر ندهید!"
+
+#: wordpress-gallery-extra.php:1322
+msgid "Your custom gallery structure goes here..."
+msgstr "ساختار سفارشی گالری‌تان را اینجا وارد کنید..."
+
+#: wordpress-gallery-extra.php:1323
+msgid "You need to use Pug (Jade) as structure."
+msgstr "نیاز به استفاده از Pug (Jade) به عنوان ساختار دارید."
+
+#: wordpress-gallery-extra.php:1328
+msgid "Show Loading Indicator"
+msgstr "نمایش شاخص بارگذاری"
+
+#: wordpress-gallery-extra.php:1331 wordpress-gallery-extra.php:2999
+msgid "Yes"
+msgstr "بله"
+
+#: wordpress-gallery-extra.php:1333 wordpress-gallery-extra.php:2998
+msgid "No"
+msgstr "نه"
+
+#: wordpress-gallery-extra.php:1336
+msgid ""
+"By default, an animated loading animation indicator is shown before the "
+"thumbnails have loaded. You can disable the loader if you want."
+msgstr ""
+"به طور پیش فرض، قبل از اینکه عکس‌ها بارگزاری شوند یک شاخص بارگذاری متحرک نشان "
+"داده می‌شود. اگر می‌خواهید می‌توانید شاخص را غیرفعال کنید."
+
+#: wordpress-gallery-extra.php:1340
+msgid "Caption Source"
+msgstr "منبع زیرنویس"
+
+#: wordpress-gallery-extra.php:1343
+msgid "Title"
+msgstr "عنوان"
+
+#: wordpress-gallery-extra.php:1345 wordpress-gallery-extra.php:1663
+#: wordpress-gallery-extra.php:1867
+msgid "Caption"
+msgstr "زیرنویس"
+
+#: wordpress-gallery-extra.php:1347
+msgid "Alt Text"
+msgstr "متن جایگزین"
+
+#: wordpress-gallery-extra.php:1349
+msgid "Description"
+msgstr "توضیح"
+
+#: wordpress-gallery-extra.php:1351
+msgid "Custom"
+msgstr "سفارشی"
+
+#: wordpress-gallery-extra.php:1354
+msgid ""
+"Pull captions from either the attachment Title, Caption, Alt Text or "
+"Description."
+msgstr "کشیدن زیرنویس از عنوان، زیرنویس، متن جایگزین یا توضیح ضمیمه."
+
+#: wordpress-gallery-extra.php:1358
+msgid "Caption Custom Content"
+msgstr "محتوای زیرنویس سفارشی"
+
+#: wordpress-gallery-extra.php:1361
+msgid "Use your own custom caption content."
+msgstr "از محتوای سفارشی خود برای زیرنویس استفاده کنید."
+
+#: wordpress-gallery-extra.php:1361
+msgid "Possible variables are:"
+msgstr "متغیرهای ممکن عبارتند از:"
+
+#: wordpress-gallery-extra.php:1365
+msgid "Last row"
+msgstr "آخرین ردیف"
+
+#: wordpress-gallery-extra.php:1368
+msgid "Align left"
+msgstr "تراز به چپ"
+
+#: wordpress-gallery-extra.php:1370
+msgid "Align center"
+msgstr "تراز به مرکز"
+
+#: wordpress-gallery-extra.php:1372
+msgid "Align right"
+msgstr "تراز به راست"
+
+#: wordpress-gallery-extra.php:1374
+msgid "Justify"
+msgstr "تراز"
+
+#: wordpress-gallery-extra.php:1376
+msgid "Hide"
+msgstr "پنهان"
+
+#: wordpress-gallery-extra.php:1379
+msgid ""
+"Decide how to position the last row of images. Default the last row images "
+"are aligned to the left. You can also hide the row if it can't be justified "
+"and aligned to the center or to the right."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1383
+msgid "Alignment"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1386 wordpress-gallery-extra.php:3004
+msgid "Left"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1388 wordpress-gallery-extra.php:3005
+#: wordpress-gallery-extra.php:3011
+msgid "Center"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1390 wordpress-gallery-extra.php:3006
+msgid "Right"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1393
+msgid "The horizontal alignment of the thumbnails inside the gallery."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1397 wordpress-gallery-extra.php:5085
+msgid "Row Height"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1400
+msgid "The preferred height of your gallery rows in pixel."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1404 wordpress-gallery-extra.php:5094
+msgid "Max Row Height"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1414
+msgid ""
+"A number (e.g 200) which specifies the maximum row height in pixels. Use "
+"<code>-1px</code> to remove the limit of the maximum row height. "
+"Alternatively, use a percentage (e.g. 200% which means that the row height "
+"cannot exceed <code>2 * Row Height</code>)"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1418
+msgid "Mosaic Type"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1430 wordpress-gallery-extra.php:1878
+#: wordpress-gallery-extra.php:1954 wordpress-gallery-extra.php:2152
+msgid "Save Changes"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1438
+msgid "Style your gallery template with the following options."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1446
+msgid "Style"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1460
+msgid "The style for each thumbnail in the gallery."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1467
+msgid "Border"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1483
+msgid "Radius"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1484
+msgid "Weight"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1486 wordpress-gallery-extra.php:1536
+#: wordpress-gallery-extra.php:1740
+msgid "Color"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1499 wordpress-gallery-extra.php:1667
+#: wordpress-gallery-extra.php:1732 wordpress-gallery-extra.php:1803
+msgid "None"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1500 wordpress-gallery-extra.php:1728
+msgid "Solid"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1501
+msgid "Dotted"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1502
+msgid "Dashed"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1503
+msgid "Double"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1516
+msgid "Shadow"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1532
+msgid "X-offset"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1533
+msgid "Y-offset"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1534 wordpress-gallery-extra.php:1665
+msgid "Blur"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1535
+msgid "Spread"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1537
+msgid "Inset"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1576
+msgid "Use Placeholder"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1592 wordpress-gallery-extra.php:1657
+msgid "Overlay"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1593
+msgid "Readable Caption Text Color"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1594
+msgid "Image Background"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1642 wordpress-gallery-extra.php:5222
+msgid "Spacing"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1645
+msgid "The spacing or gap between thumbnails in the gallery."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1652
+msgid "Hover Effect Type"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1655 wordpress-gallery-extra.php:1674
+msgid "Icon"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1659
+msgid "Zoom"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1661
+msgid "Colorize"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1670
+msgid "The type of hover effect the thumbnails will use."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1709
+msgid "Choose which icon is shown when you hover each thumbnail."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1713
+msgid "Icon Color"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1719 wordpress-gallery-extra.php:5239
+msgid "Icon Size"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1725
+msgid "Overlay Background"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1730
+msgid "Gradient"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1756
+msgid "Start Color"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1757
+msgid "Stop Color"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1758
+msgid "Orientation"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1771
+msgid "Vertical"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1782
+msgid "Caption Color"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1788
+msgid "Caption Effect"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1791
+msgid "Simple"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1793
+msgid "Slide In"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1795
+msgid "Fade In"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1797
+msgid "Drop"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1799
+msgid "Push"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1801
+msgid "Always Visible"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1806
+msgid "The type of caption effect the thumbnails will use."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1810
+msgid "Caption Position"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1813
+msgid "Top Left"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1815
+msgid "Top Center"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1817
+msgid "Top Right"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1821
+msgid "Middle Left"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1823
+msgid "Middle Center"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1825
+msgid "Middle Right"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1829
+msgid "Bottom Left"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1831
+msgid "Bottom Center"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1833
+msgid "Bottom Right"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1836
+msgid "Where the captions are displayed in relation to the thumbnail."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1840
+msgid "Overlay as Caption Background"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1852
+msgid "Set overlay background as caption background."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1859
+msgid "Custom CSS"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1861
+msgid "Available CSS Selectors (click to add):"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1863
+msgid "Gallery"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1864
+msgid "Item"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1865
+msgid "Thumbnail Container"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1866
+msgid "Thumbnail Image"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1872
+msgid "Custom CSS styles goes here..."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1873
+msgid ""
+"Allows you to add your own styles or override the default styles. LESS-CSS is "
+"alowed."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1905
+msgid "Configure global WordPress Gallery Extra settings."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1911
+msgid "Lightbox"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1914
+#, php-format
+msgid ""
+"Use your own lightbox function. <a target=\"_blank\" href=\"%s\">Download and "
+"activate iLightBox</a> which works flawlessly with WordPress Gallery Extra."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1918
+msgid "Crash Report"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1930
+msgid ""
+"Crash reports help iProDev fix problems and make \"WordPress Gallery Extra\" "
+"more stable and secure."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1934
+msgid "Delete Data"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1947
+msgid ""
+"Delete all the data from the database. Even if you delete \"WP Gallery Extra"
+"\" from the plugin page, all the data stored in the database will be still "
+"available, so you won't lose your settings."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1948
+msgid ""
+"But if you want to permanently delete \"WP Gallery Extra\" and all the data "
+"stored in your database, before deactivating and deleting the plugin switch "
+"on this field."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1962
+msgid "Product License"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1963
+msgid ""
+"In order to receive all benefits of WordPress Gallery Extra, you need to "
+"activate your copy of the plugin. By activating WordPress Gallery Extra "
+"license you will unlock premium options - direct plugin updates, access to "
+"template library and official support."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1965
+msgid "Activate WordPress Gallery Extra"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1966
+#, php-format
+msgid ""
+"Don't have direct license yet? <a href=\"%s\" target=\"_blank\">Purchase "
+"WordPress Gallery Extra license</a>."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1969
+msgid "Deactivate WordPress Gallery Extra"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1970
+msgid "Deactivate to release current license."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1993
+msgid ""
+"The sizes listed below determine the maximum dimensions in pixels to use when "
+"adding an image to the Media Library."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2003
+msgid "Thumbnail"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2004
+msgid "Medium"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2005
+msgid "Large"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2041 wordpress-gallery-extra.php:2296
+#: wordpress-gallery-extra.php:5373
+msgid "Max Width"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2042 wordpress-gallery-extra.php:2297
+#: wordpress-gallery-extra.php:5377
+msgid "Max Height"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2046 wordpress-gallery-extra.php:2053
+#: wordpress-gallery-extra.php:2298
+msgid "Cropping"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2054 wordpress-gallery-extra.php:2299
+msgid "Show in post insertion?"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2138
+msgid "New size"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2144 wordpress-gallery-extra.php:5383
+msgid "Image Quality"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2147
+msgid "Change the Image compression-level of uploaded images and thumbnails."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2161
+msgid ""
+"Use this tool to regenerate thumbnails for all images that you have uploaded "
+"to your blog."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2162
+#, php-format
+msgid ""
+"You can regenerate specific images (rather than all images) from the <a "
+"href='%s'>Media</a> page. Hover over an image's row and click the link to "
+"resize just that one image."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2163
+msgid ""
+"To make sure you don't lose any data, please hit the <em>Backup Now</em> "
+"button before you start."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2169
+msgid "Backup"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2171
+msgid "Backup Now"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2186
+msgid ""
+"Creates a zipped archive of your <code>uploads</code> directory and saves it "
+"in <code>wp-content/backups/wordpress-gallery-extra/</code> (recommended)."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2190
+msgid "Clean Thumbnails"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2193
+msgid "Start Analyzing"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2195 wordpress-gallery-extra.php:5490
+#: wordpress-gallery-extra.php:5543
+msgid "After Date"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2195 wordpress-gallery-extra.php:2196
+msgid "(Optional)"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2195
+msgid "Date to clean thumbnails after."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2196 wordpress-gallery-extra.php:5503
+#: wordpress-gallery-extra.php:5556
+msgid "Before Date"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2196
+msgid "Date to clean thumbnails before."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2198
+msgid ""
+"Scans your <code>uploads</code> directory for thumbnails and returns the "
+"total amount without deleting any files."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2206
+msgid "Original Files"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2207
+msgid "Thumbnail Files"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2208
+msgid "Total File Size"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2223
+msgid ""
+"Deletes <strong>all</strong> thumbnails within your <code>uploads</code> "
+"directory."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2227
+msgid "Keep old thumbnails to avoid any broken images due to hard-coded URLs."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2228
+msgid ""
+"Unless you have created a backup, this <strong>cannot</strong> be reversed."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2240
+msgid "Sizes to rebuild"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2253
+msgid "Select which image sizes you want to rebuild."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2257
+msgid "Post types to rebuild"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2276
+msgid "Select which post type source thumbnails only you want to rebuild."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2281
+msgid "Start Regenerator"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2367
+msgid "Welcome to WordPress Gallery Extra"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2369
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! WordPress Gallery Extra %s is "
+"the most intuitive and extensible gallery management tool ever created for "
+"native WordPress Gallery."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2370
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2372
+msgid "A brand new algorithm"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2373
+msgid ""
+"There are dozens of WordPress photo galleries out there, but the problem is "
+"that they always look the same!<br><strong>WordPress Gallery Extra</strong> "
+"uses a brand new algorithm to make much more interesting image grids."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2374
+msgid ""
+"The <strong>WordPress Gallery Extra</strong> is fully responsive and it "
+"adapts to the browser using a nice and smooth animation, even on mobile "
+"devices because it can use the hardware acceleration taking advantage of CSS3 "
+"properties."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2381
+msgid "Documentation"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2382
+msgid ""
+"Learn about <strong>WordPress Gallery Extra</strong> and create awesome "
+"galleries."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2385
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2386
+msgid "Check our FAQs page to find quick answer to your common question."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2389
+msgid "Comments"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2390
+msgid ""
+"Check other customers comments to find the right answer for the same issue."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2393
+msgid "Need Support?"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2394
+msgid ""
+"If you need support you can check our <strong>Support Center</strong> and get "
+"in touch."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2397
+msgid "Check Forum"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2398
+msgid ""
+"We have support forum that you can check answers for issues or add your issue "
+"and get answered by other customers and experts."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2401
+msgid "Changelog"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2402
+msgid "Check latest <strong>WordPress Gallery Extra</strong> version changes."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2411
+msgid "Go to Dashboard"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2423
+#, php-format
+msgid ""
+"Please configure your gallery credentials in the <a href=\"%s\">settings "
+"menu</a> in order to show galleries using \"WP Gallery Extra\" plugin."
+msgstr ""
+
+#: wordpress-gallery-extra.php:2928
+msgid "The gallery structure is not valid."
+msgstr ""
+
+#: wordpress-gallery-extra.php:3010
+msgid "Top"
+msgstr ""
+
+#: wordpress-gallery-extra.php:3012
+msgid "Bottom"
+msgstr ""
+
+#: wordpress-gallery-extra.php:3658
+#, php-format
+msgid "\"%1$s\" (ID %2$s) failed to resize. The error message was: %3$s"
+msgstr ""
+
+#: wordpress-gallery-extra.php:4872
+msgid "You are not allowed to change WordPress Gallery Extra settings."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4899 wordpress-gallery-extra.php:4949
+#: wordpress-gallery-extra.php:5000 wordpress-gallery-extra.php:5438
+msgid "Now"
+msgstr ""
+
+#: wordpress-gallery-extra.php:4904 wordpress-gallery-extra.php:5051
+msgid "Your template name must be at least 3 characters."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4966
+msgid "Please choose an valid template to import."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4981 wordpress-gallery-extra.php:5025
+#: wordpress-gallery-extra.php:5042 wordpress-gallery-extra.php:5126
+msgid "Intended template is not exists."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5085 wordpress-gallery-extra.php:5094
+#: wordpress-gallery-extra.php:5151 wordpress-gallery-extra.php:5159
+#: wordpress-gallery-extra.php:5177 wordpress-gallery-extra.php:5185
+#: wordpress-gallery-extra.php:5193 wordpress-gallery-extra.php:5201
+#: wordpress-gallery-extra.php:5222 wordpress-gallery-extra.php:5239
+#: wordpress-gallery-extra.php:5369 wordpress-gallery-extra.php:5373
+#: wordpress-gallery-extra.php:5377 wordpress-gallery-extra.php:5383
+#, php-format
+msgid "Please enter a valid value in the '%s' field."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5107 wordpress-gallery-extra.php:5313
+msgid "Settings saved."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5109 wordpress-gallery-extra.php:5315
+msgid "Settings are not saved."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5151
+msgid "Border Radius"
+msgstr ""
+
+#: wordpress-gallery-extra.php:5159
+msgid "Border Weight"
+msgstr ""
+
+#: wordpress-gallery-extra.php:5177
+msgid "Shadow X-offset"
+msgstr ""
+
+#: wordpress-gallery-extra.php:5185
+msgid "Shadow Y-offset"
+msgstr ""
+
+#: wordpress-gallery-extra.php:5193
+msgid "Shadow Blur"
+msgstr ""
+
+#: wordpress-gallery-extra.php:5201
+msgid "Shadow Spread"
+msgstr ""
+
+#: wordpress-gallery-extra.php:5288 wordpress-gallery-extra.php:5359
+msgid "Changes saved."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5290 wordpress-gallery-extra.php:5390
+msgid "Changes are not saved."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5348
+msgid ""
+"Your image size registration ID has been reserved before, please try another "
+"ID."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5352
+msgid "Your image size registration ID is not valid."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5369
+msgid "Name"
+msgstr ""
+
+#: wordpress-gallery-extra.php:5440
+#, php-format
+msgid "Your thumbnails backup has been processed in %s seconds."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5458
+#, php-format
+msgid "Your thumbnails has been restored in %s seconds."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5490 wordpress-gallery-extra.php:5503
+#: wordpress-gallery-extra.php:5543 wordpress-gallery-extra.php:5556
+#, php-format
+msgid "Please enter a valid date in the '%s' field."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5518 wordpress-gallery-extra.php:5519
+#: wordpress-gallery-extra.php:5574 wordpress-gallery-extra.php:5575
+#, php-format
+msgid "%d files (%s)"
+msgstr ""
+
+#: wordpress-gallery-extra.php:5573
+#, php-format
+msgid "Your thumbnails has been cleaned in %s seconds."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5593
+msgid "There is no images available with your criteria to rebuild."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5597
+msgid "Regenerator started."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5602
+msgid "Regenerator not started."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5619
+#, php-format
+msgid "Failed resize: %s is an invalid image ID."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5626
+#, php-format
+msgid "The originally uploaded image file cannot be found at %s"
+msgstr ""
+
+#: wordpress-gallery-extra.php:5633
+msgid "Unknown failure reason."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5641
+#, php-format
+msgid "\"%s\" (ID %s) was successfully resized in %s seconds."
+msgstr ""
+
+#: wordpress-gallery-extra.php:5662
+msgid "License is not valid."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress Gallery Extra"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://iprodev.com/go/wgextra/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The most intuitive and extensible gallery management tool ever created for "
+"native WordPress Gallery."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "iProDev"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://iprodev.com/"
+msgstr ""
+
+#~ msgid "Are you sure your want to convert you CSS to LESS?"
+#~ msgstr "آیا مطمئنید می‌خواهید این قالب گالری را حذف کنید؟"

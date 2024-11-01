@@ -1,0 +1,1921 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WordPress Gallery Extra\n"
+"POT-Creation-Date: 2017-07-13 02:05+0430\n"
+"PO-Revision-Date: 2017-06-04 16:42+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wordpress-gallery-extra.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/cron.class.php:160 includes/cron.class.php:177
+#: wordpress-gallery-extra.php:4904
+msgid "Bad Request"
+msgstr ""
+
+#: includes/plugin-update-checker/Puc/v4p1/Plugin/UpdateChecker.php:358
+msgid "Check for updates"
+msgstr ""
+
+#: includes/plugin-update-checker/Puc/v4p1/Plugin/UpdateChecker.php:405
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: includes/plugin-update-checker/Puc/v4p1/Plugin/UpdateChecker.php:407
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: includes/plugin-update-checker/Puc/v4p1/Plugin/UpdateChecker.php:409
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: includes/plugin-update-checker/Puc/v4p1/Vcs/PluginUpdateChecker.php:83
+msgid "There is no changelog available."
+msgstr ""
+
+#: templates/admin/footer.php:3
+msgid "Visit author website"
+msgstr ""
+
+#: templates/admin/footer.php:4
+msgid "Like author Facebook page"
+msgstr ""
+
+#: templates/admin/footer.php:5
+msgid "Follow author on Twitter"
+msgstr ""
+
+#: templates/admin/footer.php:6
+#, php-format
+msgid ""
+"Found an error? Help making <strong>WordPress Gallery Extra</strong> better "
+"by <a target=\"_blank\" rel=\"noreferrer noopener\" href=\"%s\" title=\"%s"
+"\">quickly reporting the bug</a>."
+msgstr ""
+
+#: templates/admin/footer.php:6
+msgid "Click here to report a bug"
+msgstr ""
+
+#: templates/admin/footer.php:8 templates/admin/images-sizes.php:184
+msgid "Thumbnails Regenerator"
+msgstr ""
+
+#: templates/admin/footer.php:12
+msgid "Total Images:"
+msgstr ""
+
+#: templates/admin/footer.php:13
+msgid "Successes:"
+msgstr ""
+
+#: templates/admin/footer.php:14
+msgid "Failures:"
+msgstr ""
+
+#: templates/admin/footer.php:34
+msgid "Alert!"
+msgstr ""
+
+#: templates/admin/header.php:2 wordpress-gallery-extra.php:888
+msgid "WP Gallery Extra"
+msgstr ""
+
+#: templates/admin/header.php:6
+msgid "Notice:"
+msgstr ""
+
+#: templates/admin/header.php:6
+msgid ""
+"The plugin's settings have been changed. In order to save them please don't "
+"forget to click the 'Save Changes' button."
+msgstr ""
+
+#: templates/admin/help.php:2
+msgid "Welcome to WordPress Gallery Extra"
+msgstr ""
+
+#: templates/admin/help.php:4
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! WordPress Gallery Extra %s is "
+"the most intuitive and extensible gallery management tool ever created for "
+"native WordPress Gallery."
+msgstr ""
+
+#: templates/admin/help.php:5
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: templates/admin/help.php:7
+msgid "A brand new algorithm"
+msgstr ""
+
+#: templates/admin/help.php:8
+msgid ""
+"There are dozens of WordPress photo galleries out there, but the problem is "
+"that they always look the same!<br><strong>WordPress Gallery Extra</strong> "
+"uses a brand new algorithm to make much more interesting image grids."
+msgstr ""
+
+#: templates/admin/help.php:9
+msgid ""
+"The <strong>WordPress Gallery Extra</strong> is fully responsive and it "
+"adapts to the browser using a nice and smooth animation, even on mobile "
+"devices because it can use the hardware acceleration taking advantage of "
+"CSS3 properties."
+msgstr ""
+
+#: templates/admin/help.php:16
+msgid "Documentation"
+msgstr ""
+
+#: templates/admin/help.php:17
+msgid ""
+"Learn about <strong>WordPress Gallery Extra</strong> and create awesome "
+"galleries."
+msgstr ""
+
+#: templates/admin/help.php:20
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: templates/admin/help.php:21
+msgid "Check our FAQs page to find quick answer to your common question."
+msgstr ""
+
+#: templates/admin/help.php:24
+msgid "Comments"
+msgstr ""
+
+#: templates/admin/help.php:25
+msgid ""
+"Check other customers comments to find the right answer for the same issue."
+msgstr ""
+
+#: templates/admin/help.php:28
+msgid "Need Support?"
+msgstr ""
+
+#: templates/admin/help.php:29
+msgid ""
+"If you need support you can check our <strong>Support Center</strong> and "
+"get in touch."
+msgstr ""
+
+#: templates/admin/help.php:32
+msgid "Check Forum"
+msgstr ""
+
+#: templates/admin/help.php:33
+msgid ""
+"We have support forum that you can check answers for issues or add your "
+"issue and get answered by other customers and experts."
+msgstr ""
+
+#: templates/admin/help.php:36
+msgid "Changelog"
+msgstr ""
+
+#: templates/admin/help.php:37
+msgid "Check latest <strong>WordPress Gallery Extra</strong> version changes."
+msgstr ""
+
+#: templates/admin/help.php:46
+msgid "Go to Dashboard"
+msgstr ""
+
+#: templates/admin/help.php:46 templates/admin/templates.php:5
+#: wordpress-gallery-extra.php:892
+msgid "Templates"
+msgstr ""
+
+#: templates/admin/images-sizes.php:4 wordpress-gallery-extra.php:900
+msgid "Images Sizes"
+msgstr ""
+
+#: templates/admin/images-sizes.php:14 templates/admin/settings.php:17
+#: templates/admin/templates.php:221
+msgid "Save Changes"
+msgstr ""
+
+#: templates/admin/images-sizes.php:22
+msgid ""
+"The sizes listed below determine the maximum dimensions in pixels to use "
+"when adding an image to the Media Library."
+msgstr ""
+
+#: templates/admin/images-sizes.php:33 templates/admin/templates.php:878
+msgid "Thumbnail"
+msgstr ""
+
+#: templates/admin/images-sizes.php:34
+msgid "Medium"
+msgstr ""
+
+#: templates/admin/images-sizes.php:35
+msgid "Large"
+msgstr ""
+
+#: templates/admin/images-sizes.php:71 templates/admin/images-sizes.php:320
+#: wordpress-gallery-extra.php:4522
+msgid "Max Width"
+msgstr ""
+
+#: templates/admin/images-sizes.php:72 templates/admin/images-sizes.php:321
+#: wordpress-gallery-extra.php:4526
+msgid "Max Height"
+msgstr ""
+
+#: templates/admin/images-sizes.php:76 templates/admin/images-sizes.php:83
+#: templates/admin/images-sizes.php:322
+msgid "Cropping"
+msgstr ""
+
+#: templates/admin/images-sizes.php:84 templates/admin/images-sizes.php:323
+msgid "Show in post insertion?"
+msgstr ""
+
+#: templates/admin/images-sizes.php:85 templates/admin/images-sizes.php:324
+#: templates/admin/templates.php:111 templates/admin/templates.php:156
+msgid "Delete"
+msgstr ""
+
+#: templates/admin/images-sizes.php:168
+msgid "New size"
+msgstr ""
+
+#: templates/admin/images-sizes.php:170 wordpress-gallery-extra.php:1010
+msgid "Register a new image size"
+msgstr ""
+
+#: templates/admin/images-sizes.php:174 wordpress-gallery-extra.php:4532
+msgid "Image Quality"
+msgstr ""
+
+#: templates/admin/images-sizes.php:177
+msgid "Change the Image compression-level of uploaded images and thumbnails."
+msgstr ""
+
+#: templates/admin/images-sizes.php:185
+msgid ""
+"Use this tool to regenerate thumbnails for all images that you have uploaded "
+"to your blog."
+msgstr ""
+
+#: templates/admin/images-sizes.php:186
+#, php-format
+msgid ""
+"You can regenerate specific images (rather than all images) from the <a "
+"href='%s'>Media</a> page. Hover over an image's row and click the link to "
+"resize just that one image."
+msgstr ""
+
+#: templates/admin/images-sizes.php:187
+msgid ""
+"To make sure you don't lose any data, please hit the <em>Backup Now</em> "
+"button before you start."
+msgstr ""
+
+#: templates/admin/images-sizes.php:193
+msgid "Backup"
+msgstr ""
+
+#: templates/admin/images-sizes.php:195
+msgid "Backup Now"
+msgstr ""
+
+#: templates/admin/images-sizes.php:201 templates/admin/templates.php:106
+#: wordpress-gallery-extra.php:1740
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: templates/admin/images-sizes.php:204 wordpress-gallery-extra.php:1019
+msgid "Never"
+msgstr ""
+
+#: templates/admin/images-sizes.php:207 wordpress-gallery-extra.php:1015
+msgid "Restore Backup"
+msgstr ""
+
+#: templates/admin/images-sizes.php:208 wordpress-gallery-extra.php:1017
+msgid "Delete Backup"
+msgstr ""
+
+#: templates/admin/images-sizes.php:210
+msgid ""
+"Creates a zipped archive of your <code>uploads</code> directory and saves it "
+"in <code>wp-content/backups/wordpress-gallery-extra/</code> (recommended)."
+msgstr ""
+
+#: templates/admin/images-sizes.php:214
+msgid "Clean Thumbnails"
+msgstr ""
+
+#: templates/admin/images-sizes.php:217
+msgid "Start Analyzing"
+msgstr ""
+
+#: templates/admin/images-sizes.php:219 wordpress-gallery-extra.php:4646
+#: wordpress-gallery-extra.php:4706
+msgid "After Date"
+msgstr ""
+
+#: templates/admin/images-sizes.php:219 templates/admin/images-sizes.php:220
+msgid "(Optional)"
+msgstr ""
+
+#: templates/admin/images-sizes.php:219
+msgid "Date to clean thumbnails after."
+msgstr ""
+
+#: templates/admin/images-sizes.php:220 wordpress-gallery-extra.php:4659
+#: wordpress-gallery-extra.php:4719
+msgid "Before Date"
+msgstr ""
+
+#: templates/admin/images-sizes.php:220
+msgid "Date to clean thumbnails before."
+msgstr ""
+
+#: templates/admin/images-sizes.php:222
+msgid ""
+"Scans your <code>uploads</code> directory for thumbnails and returns the "
+"total amount without deleting any files."
+msgstr ""
+
+#: templates/admin/images-sizes.php:230
+msgid "Original Files"
+msgstr ""
+
+#: templates/admin/images-sizes.php:231
+msgid "Thumbnail Files"
+msgstr ""
+
+#: templates/admin/images-sizes.php:232
+msgid "Total File Size"
+msgstr ""
+
+#: templates/admin/images-sizes.php:246 wordpress-gallery-extra.php:1020
+msgid "Delete Thumbnails"
+msgstr ""
+
+#: templates/admin/images-sizes.php:247
+msgid ""
+"Deletes <strong>all</strong> thumbnails within your <code>uploads</code> "
+"directory."
+msgstr ""
+
+#: templates/admin/images-sizes.php:249 templates/admin/templates.php:355
+msgid "Note:"
+msgstr ""
+
+#: templates/admin/images-sizes.php:251
+msgid "Keep old thumbnails to avoid any broken images due to hard-coded URLs."
+msgstr ""
+
+#: templates/admin/images-sizes.php:252
+msgid ""
+"Unless you have created a backup, this <strong>cannot</strong> be reversed."
+msgstr ""
+
+#: templates/admin/images-sizes.php:264
+msgid "Sizes to rebuild"
+msgstr ""
+
+#: templates/admin/images-sizes.php:277
+msgid "Select which image sizes you want to rebuild."
+msgstr ""
+
+#: templates/admin/images-sizes.php:281
+msgid "Post types to rebuild"
+msgstr ""
+
+#: templates/admin/images-sizes.php:300
+msgid "Select which post type source thumbnails only you want to rebuild."
+msgstr ""
+
+#: templates/admin/images-sizes.php:305
+msgid "Start Regenerator"
+msgstr ""
+
+#: templates/admin/settings.php:3 templates/admin/templates.php:209
+#: wordpress-gallery-extra.php:896 wordpress-gallery-extra.php:918
+#: wordpress-gallery-extra.php:933
+msgid "Settings"
+msgstr ""
+
+#: templates/admin/settings.php:5
+msgid "General"
+msgstr ""
+
+#: templates/admin/settings.php:6
+msgid "License"
+msgstr ""
+
+#: templates/admin/settings.php:30
+msgid "Configure general WordPress Gallery Extra settings."
+msgstr ""
+
+#: templates/admin/settings.php:33
+msgid "Load Library"
+msgstr ""
+
+#: templates/admin/settings.php:46
+msgid ""
+"Include WordPress Gallery Extra library globally. If enabled, CSS and JS "
+"files of WordPress Gallery Extra will be loaded in all pages. If disabled, "
+"CSS and JS files of WordPress Gallery Extra will be only loaded on pages "
+"where its shortcode exists."
+msgstr ""
+
+#: templates/admin/settings.php:51
+msgid "Debounce Resize"
+msgstr ""
+
+#: templates/admin/settings.php:63
+msgid ""
+"By using debounce resize, you will reduce the number of calculation during "
+"resizing the browser. This allows you to improve performance while resizing "
+"browser. If you encounter any problem, please deactivate this option."
+msgstr ""
+
+#: templates/admin/settings.php:67
+msgid "Crash Report"
+msgstr ""
+
+#: templates/admin/settings.php:79
+msgid ""
+"Crash reports help iProDev fix problems and make \"WordPress Gallery Extra\" "
+"more stable and secure."
+msgstr ""
+
+#: templates/admin/settings.php:83
+msgid "Delete Data"
+msgstr ""
+
+#: templates/admin/settings.php:96
+msgid ""
+"Delete all the data from the database. Even if you delete \"WP Gallery Extra"
+"\" from the plugin page, all the data stored in the database will be still "
+"available, so you won't lose your settings."
+msgstr ""
+
+#: templates/admin/settings.php:97
+msgid ""
+"But if you want to permanently delete \"WP Gallery Extra\" and all the data "
+"stored in your database, before deactivating and deleting the plugin switch "
+"on this field."
+msgstr ""
+
+#: templates/admin/settings.php:106
+msgid "Product License"
+msgstr ""
+
+#: templates/admin/settings.php:107
+msgid ""
+"In order to receive all benefits of WordPress Gallery Extra, you need to "
+"activate your copy of the plugin. By activating WordPress Gallery Extra "
+"license you will unlock premium options - direct plugin updates, access to "
+"template library and official support."
+msgstr ""
+
+#: templates/admin/settings.php:109
+msgid "Activate WordPress Gallery Extra"
+msgstr ""
+
+#: templates/admin/settings.php:110
+#, php-format
+msgid ""
+"Don't have direct license yet? <a href=\"%s\" target=\"_blank\" rel="
+"\"noreferrer noopener\">Purchase WordPress Gallery Extra license</a>."
+msgstr ""
+
+#: templates/admin/settings.php:113
+msgid "Deactivate WordPress Gallery Extra"
+msgstr ""
+
+#: templates/admin/settings.php:114
+msgid "Deactivate to release current license."
+msgstr ""
+
+#: templates/admin/templates.php:27 wordpress-gallery-extra.php:1033
+msgid "Import Template"
+msgstr ""
+
+#: templates/admin/templates.php:44
+msgid "New Template"
+msgstr ""
+
+#: templates/admin/templates.php:53
+msgid ""
+"Extend your WordPress native gallery with creating nice gallery templates."
+msgstr ""
+
+#: templates/admin/templates.php:57 templates/admin/templates.php:197
+msgid "No template exists, please create one."
+msgstr ""
+
+#: templates/admin/templates.php:75 templates/admin/templates.php:132
+msgid "ID"
+msgstr ""
+
+#: templates/admin/templates.php:76 templates/admin/templates.php:133
+msgid "Author"
+msgstr ""
+
+#: templates/admin/templates.php:77 templates/admin/templates.php:134
+#: templates/admin/templates.php:991
+msgid "Type"
+msgstr ""
+
+#: templates/admin/templates.php:78 templates/admin/templates.php:135
+msgid "Last Modify"
+msgstr ""
+
+#: templates/admin/templates.php:79 templates/admin/templates.php:136
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/templates.php:93 templates/admin/templates.php:174
+#: templates/admin/templates.php:333 wordpress-gallery-extra.php:4034
+#: wordpress-gallery-extra.php:4084
+msgid "Columns"
+msgstr ""
+
+#: templates/admin/templates.php:95 templates/admin/templates.php:175
+#: templates/admin/templates.php:334 wordpress-gallery-extra.php:3983
+#: wordpress-gallery-extra.php:4036 wordpress-gallery-extra.php:4086
+msgid "Justified"
+msgstr ""
+
+#: templates/admin/templates.php:97 templates/admin/templates.php:176
+#: templates/admin/templates.php:335 wordpress-gallery-extra.php:4038
+#: wordpress-gallery-extra.php:4088
+msgid "Masonry"
+msgstr ""
+
+#: templates/admin/templates.php:99 templates/admin/templates.php:177
+#: templates/admin/templates.php:336 wordpress-gallery-extra.php:4040
+#: wordpress-gallery-extra.php:4090
+msgid "Mosaic"
+msgstr ""
+
+#: templates/admin/templates.php:101 templates/admin/templates.php:178
+#: templates/admin/templates.php:337 templates/admin/templates.php:673
+#: templates/admin/templates.php:1257 wordpress-gallery-extra.php:4042
+#: wordpress-gallery-extra.php:4092
+msgid "Horizontal"
+msgstr ""
+
+#: templates/admin/templates.php:109 templates/admin/templates.php:154
+msgid "Edit"
+msgstr ""
+
+#: templates/admin/templates.php:110 templates/admin/templates.php:155
+msgid "Duplicate"
+msgstr ""
+
+#: templates/admin/templates.php:169
+msgid "Type to Search..."
+msgstr ""
+
+#: templates/admin/templates.php:173
+msgid "All"
+msgstr ""
+
+#: templates/admin/templates.php:189
+msgid "Preview"
+msgstr ""
+
+#: templates/admin/templates.php:190
+msgid "Import"
+msgstr ""
+
+#: templates/admin/templates.php:210
+msgid "Styling"
+msgstr ""
+
+#: templates/admin/templates.php:321
+msgid "Personalize your gallery template with the following settings."
+msgstr ""
+
+#: templates/admin/templates.php:324
+msgid "Template Name"
+msgstr ""
+
+#: templates/admin/templates.php:330
+msgid "Gallery Type"
+msgstr ""
+
+#: templates/admin/templates.php:339
+msgid ""
+"The gallery type that will be used when the gallery is output to the "
+"frontend."
+msgstr ""
+
+#: templates/admin/templates.php:343
+msgid "Gallery Structure"
+msgstr ""
+
+#: templates/admin/templates.php:346 templates/admin/templates.php:370
+#: templates/admin/templates.php:382 templates/admin/templates.php:417
+#: templates/admin/templates.php:419 templates/admin/templates.php:423
+#: templates/admin/templates.php:774 templates/admin/templates.php:855
+#: wordpress-gallery-extra.php:4464 wordpress-gallery-extra.php:4502
+#: wordpress-gallery-extra.php:4635 wordpress-gallery-extra.php:4690
+#: wordpress-gallery-extra.php:4746 wordpress-gallery-extra.php:4781
+#: wordpress-gallery-extra.php:4861
+msgid "Please activate WordPress Gallery Extra plugin to enable this feature."
+msgstr ""
+
+#: templates/admin/templates.php:349 templates/admin/templates.php:844
+#: wordpress-gallery-extra.php:640
+msgid "Auto"
+msgstr ""
+
+#: templates/admin/templates.php:351 templates/admin/templates.php:846
+msgid "Manual"
+msgstr ""
+
+#: templates/admin/templates.php:354
+msgid ""
+"By using this feature you can control the entire gallery's skeleton "
+"structure."
+msgstr ""
+
+#: templates/admin/templates.php:355
+msgid "Don't change it to manual until you know what to do!"
+msgstr ""
+
+#: templates/admin/templates.php:358
+msgid "Your custom gallery structure goes here..."
+msgstr ""
+
+#: templates/admin/templates.php:359
+msgid "You need to use Pug (Jade) as structure."
+msgstr ""
+
+#: templates/admin/templates.php:365
+msgid "Loading Type"
+msgstr ""
+
+#: templates/admin/templates.php:368 templates/admin/templates.php:386
+#: templates/admin/templates.php:413 templates/admin/templates.php:440
+#: templates/admin/templates.php:571 templates/admin/templates.php:579
+#: templates/admin/templates.php:1005 templates/admin/templates.php:1173
+#: templates/admin/templates.php:1217 templates/admin/templates.php:1288
+msgid "None"
+msgstr ""
+
+#: templates/admin/templates.php:370
+msgid ""
+"Delays loading of images in long grids. Images outside of viewport are not "
+"loaded until user scrolls to them."
+msgstr ""
+
+#: templates/admin/templates.php:370
+msgid "Lazy Load"
+msgstr ""
+
+#: templates/admin/templates.php:372
+msgid ""
+"An animated loading animation indicator is shown before the thumbnails have "
+"loaded."
+msgstr ""
+
+#: templates/admin/templates.php:372
+msgid "Loading Indicator"
+msgstr ""
+
+#: templates/admin/templates.php:375
+msgid "Thumbnails loading type in the grid."
+msgstr ""
+
+#: templates/admin/templates.php:379
+msgid "Grid Loading Animation"
+msgstr ""
+
+#: templates/admin/templates.php:387
+msgid "Hapi"
+msgstr ""
+
+#: templates/admin/templates.php:388
+msgid "Amun"
+msgstr ""
+
+#: templates/admin/templates.php:389
+msgid "Kuk"
+msgstr ""
+
+#: templates/admin/templates.php:390
+msgid "Isis"
+msgstr ""
+
+#: templates/admin/templates.php:391
+msgid "Montu"
+msgstr ""
+
+#: templates/admin/templates.php:392
+msgid "Osiris"
+msgstr ""
+
+#: templates/admin/templates.php:393
+msgid "Satet"
+msgstr ""
+
+#: templates/admin/templates.php:394
+msgid "Atum"
+msgstr ""
+
+#: templates/admin/templates.php:395
+msgid "Ra"
+msgstr ""
+
+#: templates/admin/templates.php:396
+msgid "Sobek"
+msgstr ""
+
+#: templates/admin/templates.php:397
+msgid "Ptah"
+msgstr ""
+
+#: templates/admin/templates.php:398
+msgid "Bes"
+msgstr ""
+
+#: templates/admin/templates.php:399
+msgid "Seker"
+msgstr ""
+
+#: templates/admin/templates.php:400
+msgid "Nut"
+msgstr ""
+
+#: templates/admin/templates.php:401
+msgid "Shu"
+msgstr ""
+
+#: templates/admin/templates.php:402
+msgid "Apis"
+msgstr ""
+
+#: templates/admin/templates.php:405
+msgid "Add loading animations to grid items."
+msgstr ""
+
+#: templates/admin/templates.php:410
+msgid "Lightbox Type"
+msgstr ""
+
+#: templates/admin/templates.php:415
+msgid "Magnific Popup"
+msgstr ""
+
+#: templates/admin/templates.php:417
+msgid "PhotoSwipe"
+msgstr ""
+
+#: templates/admin/templates.php:419
+msgid "FancyBox"
+msgstr ""
+
+#: templates/admin/templates.php:421
+msgid "Please download and activate iLightBox plugin to enable this feature."
+msgstr ""
+
+#: templates/admin/templates.php:421
+msgid "iLightBox"
+msgstr ""
+
+#: templates/admin/templates.php:423 templates/admin/templates.php:774
+msgid "Custom"
+msgstr ""
+
+#: templates/admin/templates.php:426
+msgid "Choose the default LightBox to be used."
+msgstr ""
+
+#: templates/admin/templates.php:426
+#, php-format
+msgid ""
+"<a target=\"_blank\" rel=\"noreferrer noopener\" href=\"%s\">Download and "
+"activate iLightBox</a> which works flawlessly with WordPress Gallery Extra."
+msgstr ""
+
+#: templates/admin/templates.php:431
+msgid "Popup opening & closing animation type."
+msgstr ""
+
+#: templates/admin/templates.php:431
+msgid "Animation"
+msgstr ""
+
+#: templates/admin/templates.php:432
+msgid "Fits image in area vertically."
+msgstr ""
+
+#: templates/admin/templates.php:432
+msgid "Vertical Fit"
+msgstr ""
+
+#: templates/admin/templates.php:433 templates/admin/templates.php:607
+msgid "Wait for images to load before displaying?"
+msgstr ""
+
+#: templates/admin/templates.php:433 templates/admin/templates.php:607
+msgid "Preload"
+msgstr ""
+
+#: templates/admin/templates.php:434 templates/admin/templates.php:497
+#: templates/admin/templates.php:605 templates/admin/templates.php:706
+msgid "Enabling the hash linking images."
+msgstr ""
+
+#: templates/admin/templates.php:434 templates/admin/templates.php:497
+#: templates/admin/templates.php:605 templates/admin/templates.php:706
+msgid "Deeplinking"
+msgstr ""
+
+#: templates/admin/templates.php:441 templates/admin/templates.php:572
+#: templates/admin/templates.php:580
+msgid "Fade"
+msgstr ""
+
+#: templates/admin/templates.php:442
+msgid "Zoom In Out"
+msgstr ""
+
+#: templates/admin/templates.php:443
+msgid "Newspaper"
+msgstr ""
+
+#: templates/admin/templates.php:444
+msgid "Move Horizontal"
+msgstr ""
+
+#: templates/admin/templates.php:445
+msgid "Move Vertical"
+msgstr ""
+
+#: templates/admin/templates.php:446
+msgid "3d Unfold"
+msgstr ""
+
+#: templates/admin/templates.php:447
+msgid "Zoom Out In"
+msgstr ""
+
+#: templates/admin/templates.php:495 templates/admin/templates.php:654
+msgid "Skin"
+msgstr ""
+
+#: templates/admin/templates.php:496
+msgid "Loop slides when using swipe gesture."
+msgstr ""
+
+#: templates/admin/templates.php:496 templates/admin/templates.php:566
+#: templates/admin/templates.php:656
+msgid "Loop"
+msgstr ""
+
+#: templates/admin/templates.php:498 templates/admin/templates.php:707
+msgid "Share Buttons"
+msgstr ""
+
+#: templates/admin/templates.php:499 templates/admin/templates.php:606
+msgid "Make images available for download."
+msgstr ""
+
+#: templates/admin/templates.php:499 templates/admin/templates.php:606
+msgid "Download Image"
+msgstr ""
+
+#: templates/admin/templates.php:504
+msgid "Black"
+msgstr ""
+
+#: templates/admin/templates.php:505
+msgid "White"
+msgstr ""
+
+#: templates/admin/templates.php:564
+msgid "Open/close animation effect type."
+msgstr ""
+
+#: templates/admin/templates.php:564
+msgid "Animation Effect"
+msgstr ""
+
+#: templates/admin/templates.php:565
+msgid "Transition effect between slides."
+msgstr ""
+
+#: templates/admin/templates.php:565
+msgid "Transition Effect"
+msgstr ""
+
+#: templates/admin/templates.php:566
+msgid "Enable infinite gallery navigation."
+msgstr ""
+
+#: templates/admin/templates.php:573 templates/admin/templates.php:1165
+msgid "Zoom"
+msgstr ""
+
+#: templates/admin/templates.php:574 templates/admin/templates.php:584
+msgid "Zoom in out"
+msgstr ""
+
+#: templates/admin/templates.php:581
+msgid "Slide"
+msgstr ""
+
+#: templates/admin/templates.php:582
+msgid "Circular"
+msgstr ""
+
+#: templates/admin/templates.php:583
+msgid "Tube"
+msgstr ""
+
+#: templates/admin/templates.php:585
+msgid "Rotate"
+msgstr ""
+
+#: templates/admin/templates.php:655
+msgid "Sets direction for switching windows."
+msgstr ""
+
+#: templates/admin/templates.php:655
+msgid "Direction"
+msgstr ""
+
+#: templates/admin/templates.php:656
+msgid "Enable infinite lightbox navigation."
+msgstr ""
+
+#: templates/admin/templates.php:657
+msgid "Enable carousel style lightbox navigation."
+msgstr ""
+
+#: templates/admin/templates.php:657
+msgid "Carousel Mode"
+msgstr ""
+
+#: templates/admin/templates.php:662
+msgid "Flat Dark"
+msgstr ""
+
+#: templates/admin/templates.php:663
+msgid "Dark"
+msgstr ""
+
+#: templates/admin/templates.php:664
+msgid "Light"
+msgstr ""
+
+#: templates/admin/templates.php:665
+msgid "Smooth"
+msgstr ""
+
+#: templates/admin/templates.php:666
+msgid "Metro Black"
+msgstr ""
+
+#: templates/admin/templates.php:667
+msgid "Metro White"
+msgstr ""
+
+#: templates/admin/templates.php:668
+msgid "Mac"
+msgstr ""
+
+#: templates/admin/templates.php:674 templates/admin/templates.php:1256
+msgid "Vertical"
+msgstr ""
+
+#: templates/admin/templates.php:707
+msgid "Display social buttons?"
+msgstr ""
+
+#: templates/admin/templates.php:708
+msgid "Show thumbnails navigation?"
+msgstr ""
+
+#: templates/admin/templates.php:708
+msgid "Thumbnails"
+msgstr ""
+
+#: templates/admin/templates.php:709
+msgid "Sets the opacity of the dimmed background of the page."
+msgstr ""
+
+#: templates/admin/templates.php:709
+msgid "Overlay Opacity"
+msgstr ""
+
+#: templates/admin/templates.php:758
+msgid "Use your own lightbox function."
+msgstr ""
+
+#: templates/admin/templates.php:763
+msgid "Caption Source"
+msgstr ""
+
+#: templates/admin/templates.php:766
+msgid "Title"
+msgstr ""
+
+#: templates/admin/templates.php:768 templates/admin/templates.php:1169
+#: templates/admin/templates.php:1352
+msgid "Caption"
+msgstr ""
+
+#: templates/admin/templates.php:770
+msgid "Alt Text"
+msgstr ""
+
+#: templates/admin/templates.php:772
+msgid "Description"
+msgstr ""
+
+#: templates/admin/templates.php:777
+msgid ""
+"Pull captions from either the attachment Title, Caption, Alt Text or "
+"Description."
+msgstr ""
+
+#: templates/admin/templates.php:781
+msgid "Caption Custom Content"
+msgstr ""
+
+#: templates/admin/templates.php:784
+msgid "Use your own custom caption content."
+msgstr ""
+
+#: templates/admin/templates.php:784
+msgid "Possible variables are:"
+msgstr ""
+
+#: templates/admin/templates.php:788
+msgid "Last row"
+msgstr ""
+
+#: templates/admin/templates.php:791
+msgid "Align left"
+msgstr ""
+
+#: templates/admin/templates.php:793
+msgid "Align center"
+msgstr ""
+
+#: templates/admin/templates.php:795
+msgid "Align right"
+msgstr ""
+
+#: templates/admin/templates.php:797
+msgid "Justify"
+msgstr ""
+
+#: templates/admin/templates.php:799
+msgid "Hide"
+msgstr ""
+
+#: templates/admin/templates.php:802
+msgid ""
+"Decide how to position the last row of images. Default the last row images "
+"are aligned to the left. You can also hide the row if it can't be justified "
+"and aligned to the center or to the right."
+msgstr ""
+
+#: templates/admin/templates.php:806
+msgid "Alignment"
+msgstr ""
+
+#: templates/admin/templates.php:809 wordpress-gallery-extra.php:1953
+msgid "Left"
+msgstr ""
+
+#: templates/admin/templates.php:811 wordpress-gallery-extra.php:1954
+#: wordpress-gallery-extra.php:1960
+msgid "Center"
+msgstr ""
+
+#: templates/admin/templates.php:813 wordpress-gallery-extra.php:1955
+msgid "Right"
+msgstr ""
+
+#: templates/admin/templates.php:816
+msgid "The horizontal alignment of the thumbnails inside the gallery."
+msgstr ""
+
+#: templates/admin/templates.php:820 wordpress-gallery-extra.php:4210
+msgid "Row Height"
+msgstr ""
+
+#: templates/admin/templates.php:823
+msgid "The preferred height of your gallery rows in pixel."
+msgstr ""
+
+#: templates/admin/templates.php:827 wordpress-gallery-extra.php:4219
+msgid "Max Row Height"
+msgstr ""
+
+#: templates/admin/templates.php:837
+msgid ""
+"A number (e.g 200) which specifies the maximum row height in pixels. Use "
+"<code>-1px</code> to remove the limit of the maximum row height. "
+"Alternatively, use a percentage (e.g. 200% which means that the row height "
+"cannot exceed <code>2 * Row Height</code>)"
+msgstr ""
+
+#: templates/admin/templates.php:841
+msgid "Mosaic Type"
+msgstr ""
+
+#: templates/admin/templates.php:852 wordpress-gallery-extra.php:4235
+#: wordpress-gallery-extra.php:4242 wordpress-gallery-extra.php:4249
+#: wordpress-gallery-extra.php:4256 wordpress-gallery-extra.php:4263
+msgid "Tilt Effect"
+msgstr ""
+
+#: templates/admin/templates.php:858 wordpress-gallery-extra.php:1948
+msgid "Yes"
+msgstr ""
+
+#: templates/admin/templates.php:860 wordpress-gallery-extra.php:1947
+msgid "No"
+msgstr ""
+
+#: templates/admin/templates.php:863
+msgid "Add parallax tilt effect to items."
+msgstr ""
+
+#: templates/admin/templates.php:868
+msgid "What element should be tilted."
+msgstr ""
+
+#: templates/admin/templates.php:868
+msgid "Mode"
+msgstr ""
+
+#: templates/admin/templates.php:869
+msgid "Max tilt gets."
+msgstr ""
+
+#: templates/admin/templates.php:869 wordpress-gallery-extra.php:4235
+msgid "Max Tilt"
+msgstr ""
+
+#: templates/admin/templates.php:870
+msgid "Speed of the enter/exit transition in milliseconds."
+msgstr ""
+
+#: templates/admin/templates.php:870 wordpress-gallery-extra.php:4242
+msgid "Speed"
+msgstr ""
+
+#: templates/admin/templates.php:871
+msgid "Scale on hover. 2 = 200%, 1.5 = 150%, etc..."
+msgstr ""
+
+#: templates/admin/templates.php:871 wordpress-gallery-extra.php:4249
+msgid "Scale"
+msgstr ""
+
+#: templates/admin/templates.php:876 templates/admin/templates.php:1349
+msgid "Item"
+msgstr ""
+
+#: templates/admin/templates.php:896
+msgid "Max glare opacity."
+msgstr ""
+
+#: templates/admin/templates.php:896 wordpress-gallery-extra.php:4256
+msgid "Glare"
+msgstr ""
+
+#: templates/admin/templates.php:897
+msgid "Transform perspective, the lower the more extreme the tilt gets."
+msgstr ""
+
+#: templates/admin/templates.php:897 wordpress-gallery-extra.php:4263
+msgid "Perspective"
+msgstr ""
+
+#: templates/admin/templates.php:898
+msgid ""
+"Turning On this option will reset the tilt effect when the user mouse leaves "
+"the item."
+msgstr ""
+
+#: templates/admin/templates.php:898
+msgid "Reset"
+msgstr ""
+
+#: templates/admin/templates.php:899
+msgid "What axis should be enabled."
+msgstr ""
+
+#: templates/admin/templates.php:899
+msgid "Axis"
+msgstr ""
+
+#: templates/admin/templates.php:922
+msgid "X"
+msgstr ""
+
+#: templates/admin/templates.php:924
+msgid "Y"
+msgstr ""
+
+#: templates/admin/templates.php:926
+msgid "Both"
+msgstr ""
+
+#: templates/admin/templates.php:938
+msgid "Custom CSS class"
+msgstr ""
+
+#: templates/admin/templates.php:941
+msgid "CSS classes separated by space. Usefull to add custom css to the grid."
+msgstr ""
+
+#: templates/admin/templates.php:949
+msgid "Style your gallery template with the following options."
+msgstr ""
+
+#: templates/admin/templates.php:952
+msgid "Style"
+msgstr ""
+
+#: templates/admin/templates.php:966
+msgid "The style for each thumbnail in the gallery."
+msgstr ""
+
+#: templates/admin/templates.php:973
+msgid "Border"
+msgstr ""
+
+#: templates/admin/templates.php:989
+msgid "Radius"
+msgstr ""
+
+#: templates/admin/templates.php:990
+msgid "Weight"
+msgstr ""
+
+#: templates/admin/templates.php:992 templates/admin/templates.php:1042
+#: templates/admin/templates.php:1225
+msgid "Color"
+msgstr ""
+
+#: templates/admin/templates.php:1006 templates/admin/templates.php:1213
+msgid "Solid"
+msgstr ""
+
+#: templates/admin/templates.php:1007
+msgid "Dotted"
+msgstr ""
+
+#: templates/admin/templates.php:1008
+msgid "Dashed"
+msgstr ""
+
+#: templates/admin/templates.php:1009
+msgid "Double"
+msgstr ""
+
+#: templates/admin/templates.php:1022
+msgid "Shadow"
+msgstr ""
+
+#: templates/admin/templates.php:1038
+msgid "X-offset"
+msgstr ""
+
+#: templates/admin/templates.php:1039
+msgid "Y-offset"
+msgstr ""
+
+#: templates/admin/templates.php:1040 templates/admin/templates.php:1171
+msgid "Blur"
+msgstr ""
+
+#: templates/admin/templates.php:1041
+msgid "Spread"
+msgstr ""
+
+#: templates/admin/templates.php:1043
+msgid "Inset"
+msgstr ""
+
+#: templates/admin/templates.php:1082
+msgid "Use Placeholder"
+msgstr ""
+
+#: templates/admin/templates.php:1098 templates/admin/templates.php:1163
+msgid "Overlay"
+msgstr ""
+
+#: templates/admin/templates.php:1099
+msgid "Readable Caption Text Color"
+msgstr ""
+
+#: templates/admin/templates.php:1100
+msgid "Image Background"
+msgstr ""
+
+#: templates/admin/templates.php:1148 wordpress-gallery-extra.php:4359
+msgid "Spacing"
+msgstr ""
+
+#: templates/admin/templates.php:1151
+msgid "The spacing or gap between thumbnails in the gallery."
+msgstr ""
+
+#: templates/admin/templates.php:1158
+msgid "Hover Effect Type"
+msgstr ""
+
+#: templates/admin/templates.php:1161 templates/admin/templates.php:1180
+#: wordpress-gallery-extra.php:694
+msgid "Icon"
+msgstr ""
+
+#: templates/admin/templates.php:1167
+msgid "Colorize"
+msgstr ""
+
+#: templates/admin/templates.php:1176
+msgid "The type of hover effect the thumbnails will use."
+msgstr ""
+
+#: templates/admin/templates.php:1194
+msgid "Choose which icon is shown when you hover each thumbnail."
+msgstr ""
+
+#: templates/admin/templates.php:1198
+msgid "Icon Color"
+msgstr ""
+
+#: templates/admin/templates.php:1204 wordpress-gallery-extra.php:4376
+msgid "Icon Size"
+msgstr ""
+
+#: templates/admin/templates.php:1210
+msgid "Overlay Background"
+msgstr ""
+
+#: templates/admin/templates.php:1215
+msgid "Gradient"
+msgstr ""
+
+#: templates/admin/templates.php:1241
+msgid "Start Color"
+msgstr ""
+
+#: templates/admin/templates.php:1242
+msgid "Stop Color"
+msgstr ""
+
+#: templates/admin/templates.php:1243
+msgid "Orientation"
+msgstr ""
+
+#: templates/admin/templates.php:1267
+msgid "Caption Color"
+msgstr ""
+
+#: templates/admin/templates.php:1273
+msgid "Caption Effect"
+msgstr ""
+
+#: templates/admin/templates.php:1276
+msgid "Simple"
+msgstr ""
+
+#: templates/admin/templates.php:1278
+msgid "Slide In"
+msgstr ""
+
+#: templates/admin/templates.php:1280
+msgid "Fade In"
+msgstr ""
+
+#: templates/admin/templates.php:1282
+msgid "Drop"
+msgstr ""
+
+#: templates/admin/templates.php:1284
+msgid "Push"
+msgstr ""
+
+#: templates/admin/templates.php:1286
+msgid "Always Visible"
+msgstr ""
+
+#: templates/admin/templates.php:1291
+msgid "The type of caption effect the thumbnails will use."
+msgstr ""
+
+#: templates/admin/templates.php:1295
+msgid "Caption Position"
+msgstr ""
+
+#: templates/admin/templates.php:1298
+msgid "Top Left"
+msgstr ""
+
+#: templates/admin/templates.php:1300
+msgid "Top Center"
+msgstr ""
+
+#: templates/admin/templates.php:1302
+msgid "Top Right"
+msgstr ""
+
+#: templates/admin/templates.php:1306
+msgid "Middle Left"
+msgstr ""
+
+#: templates/admin/templates.php:1308
+msgid "Middle Center"
+msgstr ""
+
+#: templates/admin/templates.php:1310
+msgid "Middle Right"
+msgstr ""
+
+#: templates/admin/templates.php:1314
+msgid "Bottom Left"
+msgstr ""
+
+#: templates/admin/templates.php:1316
+msgid "Bottom Center"
+msgstr ""
+
+#: templates/admin/templates.php:1318
+msgid "Bottom Right"
+msgstr ""
+
+#: templates/admin/templates.php:1321
+msgid "Where the captions are displayed in relation to the thumbnail."
+msgstr ""
+
+#: templates/admin/templates.php:1325
+msgid "Overlay as Caption Background"
+msgstr ""
+
+#: templates/admin/templates.php:1337
+msgid "Set overlay background as caption background."
+msgstr ""
+
+#: templates/admin/templates.php:1344
+msgid "Custom CSS"
+msgstr ""
+
+#: templates/admin/templates.php:1346
+msgid "Available CSS Selectors (click to add):"
+msgstr ""
+
+#: templates/admin/templates.php:1348
+msgid "Gallery"
+msgstr ""
+
+#: templates/admin/templates.php:1350
+msgid "Thumbnail Container"
+msgstr ""
+
+#: templates/admin/templates.php:1351
+msgid "Thumbnail Image"
+msgstr ""
+
+#: templates/admin/templates.php:1355 wordpress-gallery-extra.php:1031
+msgid "Convert to LESS"
+msgstr ""
+
+#: templates/admin/templates.php:1357
+msgid "Custom CSS styles goes here..."
+msgstr ""
+
+#: templates/admin/templates.php:1358
+msgid ""
+"Allows you to add your own styles or override the default styles. LESS-CSS "
+"is alowed."
+msgstr ""
+
+#: wordpress-gallery-extra.php:613
+msgid "Rebuild the thumbnails for this single image"
+msgstr ""
+
+#: wordpress-gallery-extra.php:613
+msgid "Rebuild Thumbnails"
+msgstr ""
+
+#: wordpress-gallery-extra.php:631
+msgid "Open on the same page (_self)"
+msgstr ""
+
+#: wordpress-gallery-extra.php:632
+msgid "Open on new page (_blank)"
+msgstr ""
+
+#: wordpress-gallery-extra.php:633
+msgid "Open in parent frame (_parent)"
+msgstr ""
+
+#: wordpress-gallery-extra.php:634
+msgid "Open in main frame (_top)"
+msgstr ""
+
+#: wordpress-gallery-extra.php:635
+msgid "Open in LightBox (_lightbox)"
+msgstr ""
+
+#: wordpress-gallery-extra.php:636
+msgid "Open Video in LightBox (_video)"
+msgstr ""
+
+#: wordpress-gallery-extra.php:637
+msgid "Open Audio in LightBox (_audio)"
+msgstr ""
+
+#: wordpress-gallery-extra.php:665
+msgid "Placeholder Color"
+msgstr ""
+
+#: wordpress-gallery-extra.php:667
+msgid "Image placeholder color for lazy load."
+msgstr ""
+
+#: wordpress-gallery-extra.php:672
+msgid "Custom URL"
+msgstr ""
+
+#: wordpress-gallery-extra.php:674
+msgid "Point your attachment to a custom URL."
+msgstr ""
+
+#: wordpress-gallery-extra.php:679
+msgid "Custom Target"
+msgstr ""
+
+#: wordpress-gallery-extra.php:681
+msgid "Set a custom target for your attachment."
+msgstr ""
+
+#: wordpress-gallery-extra.php:687
+msgid "Group"
+msgstr ""
+
+#: wordpress-gallery-extra.php:689
+msgid "Insert a [gallery] shortcode to open grouped gallery in lightbox."
+msgstr ""
+
+#: wordpress-gallery-extra.php:696
+msgid "Choose which icon is shown when hover this attachment."
+msgstr ""
+
+#: wordpress-gallery-extra.php:702
+msgid "Columns Size"
+msgstr ""
+
+#: wordpress-gallery-extra.php:704
+msgid "Set columns size for your attachment in mosaic gallery type."
+msgstr ""
+
+#: wordpress-gallery-extra.php:710
+msgid "Rows Size"
+msgstr ""
+
+#: wordpress-gallery-extra.php:712
+msgid "Set rows size for your attachment in mosaic gallery type."
+msgstr ""
+
+#: wordpress-gallery-extra.php:904
+msgid "Help"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1008
+msgid "OK"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1009
+msgid "Cancel"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1011
+msgid ""
+"Please enter a valid ID for your new image size. Only english letters and "
+"dashes allowed. e.g. <code>my-image-size</code>"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1012 wordpress-gallery-extra.php:4594
+#: wordpress-gallery-extra.php:4612 wordpress-gallery-extra.php:4626
+#: wordpress-gallery-extra.php:4681
+msgid "Request failed, please try again."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1013
+msgid "Backup Thumbnails"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1014
+msgid "Are you sure you want to backup your current thumbnails?"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1016
+msgid "Are you sure you want to restore your last backup?"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1018
+msgid "Are you sure you want to delete your thumbnails backup?"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1021
+msgid "Are you sure you want to delete thumbnails?"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1022
+msgid "Finished."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1023
+msgid "Create a new template"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1024
+msgid "Please enter your new template name."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1025
+msgid "Duplicate Template"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1026
+msgid "Are you sure you want to duplicate this gallery template?"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1027
+msgid "Delete Template"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1028
+msgid "Are you sure you want to delete this gallery template?"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1029 wordpress-gallery-extra.php:4839
+msgid "Your license support period has been expired, please renew it."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1030
+msgid ""
+"You didn't purchased this item yet. By purchasing WordPress Gallery Extra "
+"license you will unlock premium options - direct plugin updates, access to "
+"template library and official support."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1032
+msgid "Are you sure you want to convert your CSS to LESS?"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1034
+msgid ""
+"It looks like you have been editing something. If you leave before saving, "
+"your changes will be lost."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1055
+msgid "Template"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1057
+msgid "Default"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1164
+msgid "WordPress Gallery Extra: "
+msgstr ""
+
+#: wordpress-gallery-extra.php:1165
+msgid "WordPress Gallery Extra Lightbox: "
+msgstr ""
+
+#: wordpress-gallery-extra.php:1271
+#, php-format
+msgid ""
+"Please configure your gallery credentials in the <a href=\"%s\">settings "
+"menu</a> in order to show galleries using \"WP Gallery Extra\" plugin."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1856
+msgid "The gallery structure is not valid."
+msgstr ""
+
+#: wordpress-gallery-extra.php:1959
+msgid "Top"
+msgstr ""
+
+#: wordpress-gallery-extra.php:1961
+msgid "Bottom"
+msgstr ""
+
+#: wordpress-gallery-extra.php:2607
+#, php-format
+msgid "\"%1$s\" (ID %2$s) failed to resize. The error message was: %3$s"
+msgstr ""
+
+#: wordpress-gallery-extra.php:3954
+msgid "You are not allowed to change WordPress Gallery Extra settings."
+msgstr ""
+
+#: wordpress-gallery-extra.php:3981 wordpress-gallery-extra.php:4031
+#: wordpress-gallery-extra.php:4082 wordpress-gallery-extra.php:4587
+msgid "Now"
+msgstr ""
+
+#: wordpress-gallery-extra.php:3986 wordpress-gallery-extra.php:4133
+msgid "Your template name must be at least 3 characters."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4048
+msgid "Please choose an valid template to import."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4063 wordpress-gallery-extra.php:4107
+#: wordpress-gallery-extra.php:4124
+msgid "Intended template is not exists."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4210 wordpress-gallery-extra.php:4219
+#: wordpress-gallery-extra.php:4235 wordpress-gallery-extra.php:4242
+#: wordpress-gallery-extra.php:4249 wordpress-gallery-extra.php:4256
+#: wordpress-gallery-extra.php:4263 wordpress-gallery-extra.php:4288
+#: wordpress-gallery-extra.php:4296 wordpress-gallery-extra.php:4314
+#: wordpress-gallery-extra.php:4322 wordpress-gallery-extra.php:4330
+#: wordpress-gallery-extra.php:4338 wordpress-gallery-extra.php:4359
+#: wordpress-gallery-extra.php:4376 wordpress-gallery-extra.php:4518
+#: wordpress-gallery-extra.php:4522 wordpress-gallery-extra.php:4526
+#: wordpress-gallery-extra.php:4532
+#, php-format
+msgid "Please enter a valid value in the '%s' field."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4288
+msgid "Border Radius"
+msgstr ""
+
+#: wordpress-gallery-extra.php:4296
+msgid "Border Weight"
+msgstr ""
+
+#: wordpress-gallery-extra.php:4314
+msgid "Shadow X-offset"
+msgstr ""
+
+#: wordpress-gallery-extra.php:4322
+msgid "Shadow Y-offset"
+msgstr ""
+
+#: wordpress-gallery-extra.php:4330
+msgid "Shadow Blur"
+msgstr ""
+
+#: wordpress-gallery-extra.php:4338
+msgid "Shadow Spread"
+msgstr ""
+
+#: wordpress-gallery-extra.php:4425 wordpress-gallery-extra.php:4448
+msgid "Settings saved."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4427 wordpress-gallery-extra.php:4450
+msgid "Settings are not saved."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4490
+msgid ""
+"Your image size registration ID has been reserved before, please try another "
+"ID."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4494
+msgid "Your image size registration ID is not valid."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4508
+msgid "Changes saved."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4518
+msgid "Name"
+msgstr ""
+
+#: wordpress-gallery-extra.php:4539
+msgid "Changes are not saved."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4589
+#, php-format
+msgid "Your thumbnails backup has been processed in %s seconds."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4607
+#, php-format
+msgid "Your thumbnails has been restored in %s seconds."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4646 wordpress-gallery-extra.php:4659
+#: wordpress-gallery-extra.php:4706 wordpress-gallery-extra.php:4719
+#, php-format
+msgid "Please enter a valid date in the '%s' field."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4674 wordpress-gallery-extra.php:4675
+#: wordpress-gallery-extra.php:4737 wordpress-gallery-extra.php:4738
+#, php-format
+msgid "%d files (%s)"
+msgstr ""
+
+#: wordpress-gallery-extra.php:4736
+#, php-format
+msgid "Your thumbnails has been cleaned in %s seconds."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4763
+msgid "There is no images available with your criteria to rebuild."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4767
+msgid "Regenerator started."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4772
+msgid "Regenerator not started."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4796
+#, php-format
+msgid "Failed resize: %s is an invalid image ID."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4803
+#, php-format
+msgid "The originally uploaded image file cannot be found at %s"
+msgstr ""
+
+#: wordpress-gallery-extra.php:4810
+msgid "Unknown failure reason."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4818
+#, php-format
+msgid "\"%s\" (ID %s) was successfully resized in %s seconds."
+msgstr ""
+
+#: wordpress-gallery-extra.php:4839
+msgid "License is not valid."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress Gallery Extra"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://iprodev.com/go/wgextra/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The most intuitive and extensible gallery management tool ever created for "
+"WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "iProDev"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://iprodev.com/"
+msgstr ""

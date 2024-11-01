@@ -1,0 +1,243 @@
+@import url("icons.css");
+
+#toplevel_page_wgextra div.wp-menu-image:before {
+	display: none;
+}
+#toplevel_page_wgextra div.wp-menu-image {
+	background-image: url('../img/wgextra.svg') !important;
+	background-size: 20px 20px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+.wp-list-table.media tbody tr.loading,
+.wp-list-table.media tbody tr.loading > * {
+	position: relative;
+}
+.wp-list-table.media tbody tr.loading > *:after {
+	position: absolute;
+	content: '';
+	background-color: #fff;
+	opacity: 0.7;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.row-actions span.rebuild_thumbnails a {
+	color: #080;
+}
+
+[class^="compat-field-wgextra"] th {
+	white-space: nowrap;
+}
+
+.compat-field-wgextra_icon select {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'wordpress-gallery-extra' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	padding: 10px;
+	height: auto;
+	font-size: 48px;
+}
+
+.attachment-terms ul ul {
+	padding: 10px 0 5px 10px;
+}
+.attachment-term-section .add-new-term {
+	display: none
+}
+.attachment-term-section .toggle-add-attachment-term {
+	color: #0073aa;
+	font-size: 13px;
+	font-weight: 600;
+	text-decoration: underline;
+	cursor: pointer
+}
+.attachment-term-section ul li {
+	margin: 0;
+	padding: 0;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+.attachment-term-section ul li input[type=checkbox] {
+	margin: -4px 6px 0 0 !important;
+}
+.attachment-term-section ul ul.children {
+	padding: 0!important;
+	margin-left: 18px!important;
+}
+.save-waiting .attachment-term-section .attachment-terms li {
+	opacity: 0.5;
+	pointer-events: none;
+}
+.attachment-term-section .attachment-terms {
+	position: relative;
+	min-height: 42px;
+	max-height: 200px;
+	overflow: auto;
+	padding: 0 .9em;
+	border: 1px solid #dfdfdf;
+	background-color: #fdfdfd;
+}
+.attachment-term-section .attachment-terms.attachment-terms-popular li {
+	display: none
+}
+.attachment-term-section .attachment-terms.attachment-terms-popular li.popular-category {
+	display: list-item
+}
+.attachment-term-section ul.media-category-tabs {
+	margin: 8px 0 0 0;
+	line-height: 22px;
+}
+.attachment-term-section ul.media-category-tabs.category-tabs li {
+	z-index: 2;
+	padding: 3px 7px 4px;
+	cursor: pointer;
+	font-family: "Open Sans",sans-serif;
+	font-size: 13px;
+}
+.attachment-term-section ul.media-category-tabs.category-tabs li.tabs span {
+	color: #32373c;
+}
+.attachment-term-section .form-required {
+	margin: 0 0 1em !important;
+	padding: 3px 5px;
+}
+
+.compat-field-wgextra_columns_size .ui-slider,
+.compat-field-wgextra_rows_size .ui-slider {
+	margin: 10px 26px;
+	max-width: 300px;
+}
+.compat-field-wgextra_columns_size .ui-slider .ui-slider-handle,
+.compat-field-wgextra_rows_size .ui-slider .ui-slider-handle {
+	width: 50px;
+	margin: 0;
+	font-size: 10px;
+	font-weight: bold;
+	height: 20px;
+	line-height: 20px;
+	top: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+
+.wgextraOptionPicker {
+    width: 100%;
+    max-height: 244px;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 10px;
+    padding-bottom: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    font-family: 'wordpress-gallery-extra' !important;
+    font-size: 48px;
+}
+
+.wgextraOptionPicker strong {
+	display: block;
+	clear: left;
+	padding-top: 5px;
+}
+
+.wgextraOptionPicker ul {
+	list-style-type: none;
+	clear: left;
+	margin: 0;
+	padding: 0;
+}
+
+.wgextraOptionPicker li, .wgextraOptionPicker a {
+	float: left;
+	min-width: 38px;
+	min-height: 38px;
+	line-height: 38px;
+}
+
+.wgextraOptionPicker li {
+	margin: 0 10px 10px 0;
+}
+
+.wgextraOptionPicker li a, 
+.wgextraOptionPicker .limited a, 
+.wgextraOptionPicker .disabled {
+	border: 1px solid #c0c0c0;
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+}
+
+.wgextraOptionPicker li:last-child { 
+	margin-right: 0; 
+}
+
+.wgextraOptionPicker a {
+	color: #000000;
+	padding: 4px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.wgextraOptionPicker .disabled span {
+	padding: 4px;
+	display: block;
+	font-size: 15px;
+	min-width: 37px;
+}
+
+.wgextraOptionPicker a:hover, 
+.wgextraOptionPicker .picked {
+	border: 1px solid #003eff;
+	text-decoration: none;
+	background: #007fff;
+	color: #fff;
+}
+
+.wgextraOptionPicker .limited a, 
+.wgextraOptionPicker .disabled {
+	text-align: center;
+}
+
+.wgextraOptionPicker .disabled {
+	border: 1px solid #d1d1d1;
+	color: #999;
+}
+
+.wgextraOptionPicker .disabled .picked {
+	border: 1px solid #EAFF00;
+}
+
+
+.media-modal .jcrop-holder {
+	display: block;
+	height: calc(100% - 42px);
+	margin: 0 auto 16px;
+}
+.media-modal img.details-image {
+	display: block;
+	margin: 0 auto !important;
+}
+
+.wgextra-rect-placeholder {
+	position: relative;
+}
+.wgextra-rect-placeholder .rect {
+	position: absolute;
+	background: rgba(255, 0, 0, 0.3);
+}

@@ -1,0 +1,36 @@
+.wgextra-grid {
+	display: block;
+	padding: 40px;
+	max-width: 100%;
+	background: #f7f7f7;
+	border: 1px solid #e0e0e0;
+	text-align: center;
+	cursor: pointer;
+	position: relative;
+	font-size: 14px;
+	font-family: "Roboto","Open Sans", Arial, sans-serif;
+}
+.wgextra-grid:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+.wgextra-grid hr {
+	border: 0;
+	border-top: 1px solid #e0e0e0;
+	margin-top: 19px;
+	margin-bottom: 20px;
+}
+.wgextra-grid .title {
+	color: #000;
+	display: block;
+	font-size: 1.8em;
+	font-family: "Roboto Condensed","Roboto", Arial, sans-serif;
+	font-weight: bold;
+}
+.wgextra-grid .gallery-type {
+	display: block;
+	font-size: 1.5em;
+	font-weight: 300;
+	color: #999;
+}

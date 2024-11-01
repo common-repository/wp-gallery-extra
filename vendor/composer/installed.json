@@ -1,0 +1,528 @@
+[
+    {
+        "name": "ksubileau/color-thief-php",
+        "version": "v1.3.1",
+        "version_normalized": "1.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ksubileau/color-thief-php.git",
+            "reference": "a673d7d3fa815c70fa4bebdee74d337e9e6944fa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ksubileau/color-thief-php/zipball/a673d7d3fa815c70fa4bebdee74d337e9e6944fa",
+            "reference": "a673d7d3fa815c70fa4bebdee74d337e9e6944fa",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8|~5.7",
+            "squizlabs/php_codesniffer": "~2.7"
+        },
+        "suggest": {
+            "ext-gd": "to use the GD image adapter.",
+            "ext-gmagick": "to use the Gmagick image adapter.",
+            "ext-imagick": "to use the Imagick image adapter."
+        },
+        "time": "2016-12-18 03:12:25",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "ColorThief\\": "lib/ColorThief"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "CC-BY-2.5"
+        ],
+        "authors": [
+            {
+                "name": "Kevin Subileau",
+                "homepage": "http://www.kevinsubileau.fr"
+            }
+        ],
+        "description": "Grabs the dominant color or a representative color palette from an image.",
+        "homepage": "http://www.kevinsubileau.fr/projets/color-thief-php",
+        "keywords": [
+            "color",
+            "dominant",
+            "palette",
+            "php",
+            "thief"
+        ]
+    },
+    {
+        "name": "jasongrimes/paginator",
+        "version": "1.0.2",
+        "version_normalized": "1.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/jasongrimes/php-paginator.git",
+            "reference": "8b18245b8a9dbdf69918ebd1e1f4a229a06030cd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/jasongrimes/php-paginator/zipball/8b18245b8a9dbdf69918ebd1e1f4a229a06030cd",
+            "reference": "8b18245b8a9dbdf69918ebd1e1f4a229a06030cd",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.2"
+        },
+        "time": "2015-10-15 09:42:44",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "JasonGrimes": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jason Grimes",
+                "email": "jason@grimesit.com"
+            }
+        ],
+        "description": "A lightweight PHP paginator, for generating pagination controls in the style of Stack Overflow and Flickr. The 'first' and 'last' page links are shown inline as page numbers, and excess page numbers are replaced by ellipses.",
+        "homepage": "http://github.com/jasongrimes/php-paginator",
+        "keywords": [
+            "pager",
+            "pagination",
+            "paginator"
+        ]
+    },
+    {
+        "name": "twig/twig",
+        "version": "v1.35.0",
+        "version_normalized": "1.35.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/Twig.git",
+            "reference": "daa657073e55b0a78cce8fdd22682fddecc6385f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/Twig/zipball/daa657073e55b0a78cce8fdd22682fddecc6385f",
+            "reference": "daa657073e55b0a78cce8fdd22682fddecc6385f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "psr/container": "^1.0",
+            "symfony/debug": "~2.7",
+            "symfony/phpunit-bridge": "~3.3@dev"
+        },
+        "time": "2017-09-27 18:06:46",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.35-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Twig_": "lib/"
+            },
+            "psr-4": {
+                "Twig\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Armin Ronacher",
+                "email": "armin.ronacher@active-4.com",
+                "role": "Project Founder"
+            },
+            {
+                "name": "Twig Team",
+                "homepage": "http://twig.sensiolabs.org/contributors",
+                "role": "Contributors"
+            }
+        ],
+        "description": "Twig, the flexible, fast, and secure template language for PHP",
+        "homepage": "http://twig.sensiolabs.org",
+        "keywords": [
+            "templating"
+        ]
+    },
+    {
+        "name": "websharks/css-minifier",
+        "version": "150820",
+        "version_normalized": "150820",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/websharks/css-minifier.git",
+            "reference": "da1d0254c41e1f59c7337aa444d743e6056046ff"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/websharks/css-minifier/zipball/da1d0254c41e1f59c7337aa444d743e6056046ff",
+            "reference": "da1d0254c41e1f59c7337aa444d743e6056046ff",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "php": ">=5.3"
+        },
+        "time": "2015-08-21 03:19:25",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WebSharks\\CssMinifier\\": "src/includes/classes"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-3.0+"
+        ],
+        "authors": [
+            {
+                "name": "websharks",
+                "homepage": "http://websharks-inc.com/",
+                "role": "company"
+            },
+            {
+                "name": "jaswsinc",
+                "homepage": "http://jaswsinc.com/",
+                "role": "developer"
+            },
+            {
+                "name": "raamdev",
+                "homepage": "http://raam.org/",
+                "role": "developer"
+            }
+        ],
+        "description": "Compresses CSS.",
+        "homepage": "https://github.com/websharks/css-minifier",
+        "keywords": [
+            "compressor",
+            "css",
+            "websharks"
+        ]
+    },
+    {
+        "name": "natxet/CssMin",
+        "version": "v3.0.5",
+        "version_normalized": "3.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/natxet/CssMin.git",
+            "reference": "9580f5448f05a82c96cfe6c7063a77807d8ec56d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/natxet/CssMin/zipball/9580f5448f05a82c96cfe6c7063a77807d8ec56d",
+            "reference": "9580f5448f05a82c96cfe6c7063a77807d8ec56d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0"
+        },
+        "time": "2017-10-04 16:54:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Joe Scylla",
+                "email": "joe.scylla@gmail.com",
+                "homepage": "https://profiles.google.com/joe.scylla"
+            }
+        ],
+        "description": "Minifying CSS",
+        "homepage": "http://code.google.com/p/cssmin/",
+        "keywords": [
+            "css",
+            "minify"
+        ]
+    },
+    {
+        "name": "patchwork/jsqueeze",
+        "version": "v2.0.5",
+        "version_normalized": "2.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/tchwork/jsqueeze.git",
+            "reference": "693d64850eab2ce6a7c8f7cf547e1ab46e69d542"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/tchwork/jsqueeze/zipball/693d64850eab2ce6a7c8f7cf547e1ab46e69d542",
+            "reference": "693d64850eab2ce6a7c8f7cf547e1ab46e69d542",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-04-19 09:28:22",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Patchwork\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "(Apache-2.0 or GPL-2.0)"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            }
+        ],
+        "description": "Efficient JavaScript minification in PHP",
+        "homepage": "https://github.com/tchwork/jsqueeze",
+        "keywords": [
+            "compression",
+            "javascript",
+            "minification"
+        ]
+    },
+    {
+        "name": "linkorb/jsmin-php",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/linkorb/jsmin-php.git",
+            "reference": "be85d87fc9c27730e7e9ced742b13010dafc1026"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/linkorb/jsmin-php/zipball/be85d87fc9c27730e7e9ced742b13010dafc1026",
+            "reference": "be85d87fc9c27730e7e9ced742b13010dafc1026",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.0.0"
+        },
+        "time": "2013-03-15 13:16:35",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Joost Faassen",
+                "email": "j.faassen@linkorb.com",
+                "role": "Packaging for Composer"
+            },
+            {
+                "name": "Ryan Grove",
+                "email": "ryan@wonko.com",
+                "role": "PHP port"
+            },
+            {
+                "name": "Adam Gofort",
+                "email": "aag@adamgoforth.com",
+                "role": "Updates to the PHP port"
+            },
+            {
+                "name": "Douglas Crockford",
+                "email": "douglas@crockford.com"
+            }
+        ],
+        "description": "Unofficial package of jsmin-php",
+        "homepage": "http://www.github.com/linkorb/jsmin-php",
+        "keywords": [
+            "javascript",
+            "jsmin",
+            "minify"
+        ]
+    },
+    {
+        "name": "meenie/javascript-packer",
+        "version": "1.1",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/meenie/javascript-packer.git",
+            "reference": "dcab0159ae1ed9d7535c034fb8afe1e4c3495d22"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/meenie/javascript-packer/zipball/dcab0159ae1ed9d7535c034fb8afe1e4c3495d22",
+            "reference": "dcab0159ae1ed9d7535c034fb8afe1e4c3495d22",
+            "shasum": ""
+        },
+        "time": "2013-03-25 21:54:33",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "class.JavaScriptPacker.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL 2.1"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Martin",
+                "role": "Developer"
+            }
+        ],
+        "description": "Composer hosted mirror of the PHP Version of Dean Edwards' JavaScript Packer",
+        "homepage": "http://joliclic.free.fr/php/javascript-packer/en/",
+        "keywords": [
+            "javascript packer"
+        ]
+    },
+    {
+        "name": "wyrihaximus/html-compress",
+        "version": "1.2.1",
+        "version_normalized": "1.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/WyriHaximus/HtmlCompress.git",
+            "reference": "b51fb7593cde54f364782d13c731b711be7f77b9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/WyriHaximus/HtmlCompress/zipball/b51fb7593cde54f364782d13c731b711be7f77b9",
+            "reference": "b51fb7593cde54f364782d13c731b711be7f77b9",
+            "shasum": ""
+        },
+        "require": {
+            "linkorb/jsmin-php": "1.0.0",
+            "meenie/javascript-packer": "1.1",
+            "natxet/cssmin": "^3.0",
+            "patchwork/jsqueeze": "~1.0|~2.0",
+            "php": ">=5.4.0",
+            "websharks/css-minifier": "150820"
+        },
+        "require-dev": {
+            "phake/phake": "^1.0",
+            "phpunit/phpunit": "^4.0",
+            "squizlabs/php_codesniffer": "^1.0",
+            "vectorface/dunit": "^2.0"
+        },
+        "time": "2016-07-26 21:15:52",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "WyriHaximus\\HtmlCompress\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Cees-Jan Kiewiet",
+                "email": "ceesjank@gmail.com",
+                "homepage": "http://wyrihaximus.net/"
+            }
+        ],
+        "description": "Compress/minify your HTML",
+        "keywords": [
+            "compress",
+            "html"
+        ]
+    },
+    {
+        "name": "nochso/html-compress-twig",
+        "version": "2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nochso/html-compress-twig.git",
+            "reference": "56d658cebf2852ed455c5af0ee2196037acb2581"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nochso/html-compress-twig/zipball/56d658cebf2852ed455c5af0ee2196037acb2581",
+            "reference": "56d658cebf2852ed455c5af0ee2196037acb2581",
+            "shasum": ""
+        },
+        "require": {
+            "twig/twig": "^1.26 || ^2.0",
+            "wyrihaximus/html-compress": "^1.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.0"
+        },
+        "time": "2017-02-06 17:52:16",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "nochso\\HtmlCompressTwig\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "ISC"
+        ],
+        "authors": [
+            {
+                "name": "Marcel Voigt",
+                "email": "mv@noch.so"
+            }
+        ],
+        "description": "Twig extension for compressing HTML and inline CSS/Javascript",
+        "keywords": [
+            "compress",
+            "css",
+            "extension",
+            "html",
+            "javascript",
+            "minify",
+            "twig"
+        ]
+    }
+]
